@@ -1,0 +1,19 @@
+Aug 04 15:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 15:32 : exception: Failed to open '/home/ohmy/.config/mpd/state': No such file or directory
+Aug 04 21:38 : avahi: Client Disconnected, will reconnect shortly
+Aug 04 21:38 : avahi: Could not reconnect: Daemon not running
+Aug 04 21:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 21:40 : avahi: Client Disconnected, will reconnect shortly
+Aug 04 21:40 : avahi: Could not reconnect: Daemon not running
+Aug 04 21:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 21:41 : avahi: Client Disconnected, will reconnect shortly
+Aug 04 21:41 : avahi: Could not reconnect: Daemon not running
+Aug 04 21:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 22:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 08:09 : avahi: Client Disconnected, will reconnect shortly
+Aug 05 08:09 : avahi: Could not reconnect: Daemon not running
+Aug 05 08:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 10:44 : avahi: Client Disconnected, will reconnect shortly
+Aug 05 10:44 : avahi: Could not reconnect: Daemon not running
+Aug 05 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 17:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
