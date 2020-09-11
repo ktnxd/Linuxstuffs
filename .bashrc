@@ -61,6 +61,7 @@ alias lindat='cd /run/media/ohmy/linuxdata/'
 alias aosp='cd /run/media/ohmy/AOSP/'
 
 # pacman and yay
+alias pac='sudo pacman -S'
 alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
 alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs
 alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs
@@ -87,3 +88,6 @@ alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
 alias vifm='./.config/vifm/scripts/vifmrun'
 
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
+# Proton
+export STEAM_COMPAT_DATA_PATH=$HOME/proton
