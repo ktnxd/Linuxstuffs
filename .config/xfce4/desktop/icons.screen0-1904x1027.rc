@@ -2,11 +2,7 @@
 4.10.3+=true
 
 [/home/ohmy/Desktop/steam.desktop]
-row=6
-col=0
-
-[fcc1c6f3-30b4-48d6-8cb2-5beb84ed43f7]
-row=3
+row=4
 col=0
 
 [908a9bea-5587-4280-838f-ceab85aabfe5]
@@ -17,15 +13,19 @@ col=0
 row=1
 col=0
 
-[Wastebasket]
+[fcc1c6f3-30b4-48d6-8cb2-5beb84ed43f7]
+row=3
+col=0
+
+[Trash]
 row=0
 col=0
 
 [/]
-row=4
+row=5
 col=0
 
 [/home/ohmy]
-row=5
+row=6
 col=0
 
