@@ -89,3 +89,6 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 
 # Proton
 export STEAM_COMPAT_DATA_PATH=$HOME/proton
+
+#Bash Prompt
+PS1='\[\e[0;1;38;5;196m\][\[\e[0;1;38;5;214m\]\u\[\e[0;1;38;5;185m\]@\[\e[0;1;38;5;38m\]\H\[\e[m\] \[\e[0;1;38;5;139m\]\w\[\e[0;1;38;5;196m\]]\[\e[0;1;97m\]$\[\e[m\] \[\e0'

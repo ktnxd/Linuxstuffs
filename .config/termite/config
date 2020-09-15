@@ -1,15 +1,15 @@
 [options]
-allow_bold = true
+#allow_bold = true
 #audible_bell = false
 #bold_is_bright = true
 #cell_height_scale = 1.0
 #cell_width_scale = 1.0
-clickable_url = true
+#clickable_url = true
 #dynamic_title = true
-font =
+font = Monospace 12
 #fullscreen = true
 #icon_name = terminal
-mouse_autohide = true
+#mouse_autohide = false
 #scroll_on_output = false
 #scroll_on_keystroke = true
 # Length of the scrollback buffer, 0 disabled the scrollback buffer
@@ -23,10 +23,10 @@ scrollback_lines = 10000
 #browser = xdg-open
 
 # "system", "on" or "off"
-cursor_blink = on
+#cursor_blink = system
 
 # "block", "underline" or "ibeam"
-cursor_shape = underline
+#cursor_shape = block
 
 # Hide links that are no longer valid in url select overlay mode
 #filter_unmatched_urls = true
@@ -38,65 +38,44 @@ cursor_shape = underline
 #size_hints = false
 
 # "off", "left" or "right"
-scrollbar = off
+#scrollbar = off
 
 [colors]
 # If both of these are unset, cursor falls back to the foreground color,
 # and cursor_foreground falls back to the background color.
-cursor = #FFFFFF
+#cursor = #dcdccc
 #cursor_foreground = #dcdccc
 
+#foreground = #dcdccc
+#foreground_bold = #ffffff
+background = #1B1D24
 
-#background = rgba(5, 5, 5, 0.2)
-background =  rgba(35,47,60,0.5)
-##background =rgba(35, 47, 60, 0)
-#background = rgba(35,47,60,0.8)
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+
 # If unset, will reverse foreground and background
-#highlight = #2f2f2f
+highlight = #2f2f2f
 
-[colors]
-
-# special
-foreground      = #c9ccd1
-foreground_bold = #c9ccd1
-cursor          = #c9ccd1
-background      = #0d0e10
-
-# black
-color0  = #16181a
-color8  = #66c2be
-
-# red
-color1  = #1f2023
-color9  = #75a6e5
-
-# green
-color2  = #2f3136
-color10 = #dca3dc
-
-# yellow
-color3  = #46494f
-color11 = #db6772
-
-# blue
-color4  = #63676e
-color12 = #db97da
-
-# magenta
-color5  = #858a94
-color13 = #659d9b
-
-# cyan
-color6  = #afb4bb
-color14 = #6f9eda
-
-# white
-color7  = #e1e2e5
-color15 = #abc2e8
-
+# Colors from color0 to color254 can be set
+color0 = #3f3f3f
+color1 = #705050
+color2 = #60b48a
+color3 = #dfaf8f
+color4 = #506070
+color5 = #dc8cc3
+color6 = #8cd0d3
+color7 = #dcdccc
+color8 = #709080
+color9 = #dca3a3
+color10 = #c3bf9f
+color11 = #f0dfaf
+color12 = #94bff3
+color13 = #ec93d3
+color14 = #93e0e3
+color15 = #ffffff
 
 [hints]
-#font = Monospace 12
+font = Monospace 12
 #foreground = #dcdccc
 #background = #3f3f3f
 #active_foreground = #e68080
