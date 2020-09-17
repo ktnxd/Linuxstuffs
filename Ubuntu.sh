@@ -29,18 +29,19 @@ echo Installing programs &&
 sleep 2
 sudo add-apt-repository ppa:lutris-team/lutris &&
 sudo apt update &&
-sudo apt install lutris bspwm nitrogen dunst mpd sxhkd steam vim discord gimp htop vlc qbittorrent lxappearance ckb-next cowsay &&
+sudo apt install lutris bspwm nitrogen dunst mpd sxhkd steam vim gimp htop vlc qbittorrent lxappearance ckb-next cowsay cargo &&
+echo Discord &&
+sudo apt install gdebi-core wget &&
+wget -O ~/discord.deb "https://discordapp.com/api/download?platform=linux&format=deb" &&
+sudo gdebi ~/discord.deb &&
 echo Building From Source &&
 sleep 2
 git clone https://github.com/vinceliuice/Matcha-gtk-theme.git && cd Matcha-gtk-theme/ && ./install.sh && cd &&
-git clone https://github.com/vinceliuice/Qogir-icon-theme.git && cd Qogir-gtk-theme/ && ./install.sh && cd && 
-echo Polybar &&
-sleep 2
-git clone https://github.com/polybar/polybar.git && cd polybar/ && ./build.sh && cd &&
-echo Termite &&
-sleep 2
-git clone --recursive https://github.com/thestinger/termite.git &&
-cd termite && make && cd &&
+git clone https://github.com/vinceliuice/Qogir-icon-theme.git && cd Qogir-icon-theme/ && ./install.sh && cd && 
+sudo cargo install exa --root /bin && sudo mv /bin/bin/exa /bin/ &&
+sudo apt-get purge snapd &&
+git config --global user.email "ktnxbaii@gmail.com" &&
+git config --global user.name "ktnxd" &&
 clear &&
 cowsay -f tux all done nibba
 sleep 2
