@@ -1,5 +1,5 @@
 favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop
-recent=exo-file-manager.desktop,firefox.desktop,discord.desktop,nvidia-settings.desktop,xfce4-screenshooter.desktop,xfce-settings-manager.desktop,xfce4-power-manager-settings.desktop,steam-native.desktop,ristretto.desktop,org.midori_browser.Midori.desktop
+recent=exo-file-manager.desktop,firefox.desktop,exo-terminal-emulator.desktop,nvidia-settings.desktop,panel-preferences.desktop,org.midori_browser.Midori.desktop,discord.desktop,xfce4-screenshooter.desktop,xfce-settings-manager.desktop,xfce4-power-manager-settings.desktop
 button-icon=artixlinux-logo
 button-single-row=false
 show-button-title=false
