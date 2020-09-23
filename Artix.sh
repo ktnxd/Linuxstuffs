@@ -23,6 +23,13 @@ git clone https://github.com/ckb-next/ckb-next.git ;
 cd ckb-next/ ;
 ./quickinstall ;
 cd ;
+# AUR
+echo AUR ;
+sleep 1 ;
+git clone https://aur.archlinux.org/yay.git ;
+cd yay ;
+makepkg -si ;
+cd ;
 # Install pacaur
 echo AUR
 sudo pacman -S base-devel git wget multilib-devel cmake svn clang lzip patchelf inetutils python2-distlib

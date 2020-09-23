@@ -64,7 +64,7 @@ alias lindat='cd /run/media/ohmy/linuxdata/'
 alias aosp='cd /run/media/ohmy/AOSP/'
 
 # pacman and yay
-alias pac='sudo pacman -S'
+alias pac='sudo pacman'
 alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
 alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs
 alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs
