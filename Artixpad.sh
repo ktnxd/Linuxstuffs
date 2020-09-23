@@ -3,7 +3,7 @@ sudo sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf ;
 sudo pacman -Syyyu
 echo Moving Personal Configs ;
 sleep 3 ;
-cp Linuxstuffs/.bashrc ~/.bashrcTP ;
+cp Linuxstuffs/.bashrcTP ~/.bashrc ;
 cp Linuxstuffs/wallhaven-4l5jkp.jpg ~/Pictures ; 
 cp -r Linuxstuffs/.Xresources ~/.Xresources ; 
 cp -r Linuxstuffs/.config/bspwm ~/.config/ ;
