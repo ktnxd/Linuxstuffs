@@ -5,7 +5,7 @@ echo Moving Personal Configs ;
 sleep 3 ;
 cp Linuxstuffs/.bashrcTP ~/.bashrc ;
 cp Linuxstuffs/wallhaven-4l5jkp.jpg ~/Pictures ; 
-cp -r Linuxstuffs/.Xresources ~/.Xresources ; 
+#cp -r Linuxstuffs/.Xresources ~/.Xresources ; 
 cp -r Linuxstuffs/.config/bspwm ~/.config/ ;
 cp -r Linuxstuffs/.config/dunst ~/.config/ ;
 cp -r Linuxstuffs/.config/mpd ~/.config/ ;
