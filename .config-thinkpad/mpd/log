@@ -29,3 +29,5 @@ Oct 01 17:36 : avahi: Could not reconnect: Daemon not running
 Oct 02 00:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 02 01:03 : avahi: Client Disconnected, will reconnect shortly
 Oct 02 01:03 : avahi: Could not reconnect: Daemon not running
+Oct 02 14:02 : avahi: Client Disconnected, will reconnect shortly
+Oct 02 14:02 : avahi: Could not reconnect: Daemon not running

@@ -17,3 +17,6 @@ bspc config single_monocle       true
 bspc rule -a firefox desktop='^2' follow=on
 bspc rule -a discord desktop='^6' follow=off
 bspc rule -a vlc desktop='^5' state=floating
+
+bspc config active_border_color = #d6371f
+bspc config normal_border_color = #D23D3D
