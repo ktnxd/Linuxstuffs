@@ -3,7 +3,7 @@
 
 # terminal emulator
 super + Return
-	termite
+	xfce4-terminal
 
 # program launcher
 super + @space
@@ -14,18 +14,23 @@ super + shift + {b,f,m,v,p,t}
         {firefox-bin,urxvt -e ranger,urxvt -e ncmpcpp,urxvt -e vim,pcmanfm,qbittorrent}
 
 # brightness keybindings
-XF86MonBrightness{Up,Down}
-        xbacklight {-inc,-dec} 5
+XF86MonBrightnessDown
+	xbacklight -dec 5
+XF86MonBrightnessUp
+	xbacklight -inc 5
+
 
 # media keys
 XF86Audio{Next,Prev,Play,Stop}
         mpc {next,prev,toggle,stop}
 
 # volume
-XF86Audio{RaiseVolume,LowerVolume}
-        amixer -q sset Master {5%+,5%-}
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioRaiseVolume
+	amixer set Master 5%+
 XF86AudioMute
-        amixer -q sset Master toggle
+	amixer set Master toggle
 
 # screenshot keybindings
 Print

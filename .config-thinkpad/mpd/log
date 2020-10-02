@@ -18,3 +18,14 @@ Aug 05 10:44 : avahi: Could not reconnect: Daemon not running
 Aug 05 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Aug 05 17:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 01 16:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 17:01 : avahi: Client Disconnected, will reconnect shortly
+Oct 01 17:01 : avahi: Could not reconnect: Daemon not running
+Oct 01 17:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 17:29 : avahi: Client Disconnected, will reconnect shortly
+Oct 01 17:29 : avahi: Could not reconnect: Daemon not running
+Oct 01 17:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 17:36 : avahi: Client Disconnected, will reconnect shortly
+Oct 01 17:36 : avahi: Could not reconnect: Daemon not running
+Oct 02 00:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 01:03 : avahi: Client Disconnected, will reconnect shortly
+Oct 02 01:03 : avahi: Could not reconnect: Daemon not running

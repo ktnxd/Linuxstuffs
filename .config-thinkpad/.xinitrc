@@ -1,10 +1,5 @@
-#!/bin/bash
-[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
-xset fp rehash
-xsetroot -cursor_name left_ptr
-mpd &
+#!/bin/sh
+xsetroot -cursor_name left_ptr &
 nitrogen --restore &
-$HOME/.config/polybar/launch.sh &
-sxhkd &
+picom &
 exec bspwm

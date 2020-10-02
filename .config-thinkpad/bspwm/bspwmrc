@@ -1,8 +1,7 @@
 #! /bin/sh
 sxhkd &
+$HOME/.config/picom/picom.conf &
 $HOME/.config/polybar/launch.sh &
-mpd &
-~/.fehbg
 
 bspc monitor -d term web editor files media extra 
 
