@@ -50,7 +50,7 @@ ex ()
 ### ALIASES ###
 
 #shutdown
-alias shutdown='sudo openrc-shutdown -p now'
+#alias shutdown='sudo openrc-shutdown -p now'
 
 # navigation
 alias ..='cd ..' 
@@ -63,8 +63,8 @@ alias .6='cd ../../../../..'
 # pacman and yay
 alias pac='sudo pacman'
 alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
-alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs
-alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs
+alias parusua="paru -Sua --noconfirm"              # update only AUR pkgs
+alias parusyu="paru -Syu --noconfirm"              # update standard pkgs and AUR pkgs
 alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
 alias purge='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 #######^noobunutu####
@@ -93,4 +93,4 @@ export STEAM_COMPAT_DATA_PATH=$HOME/proton
 #Bash Prompt
 PS1='\[\e[0;1;38;5;196m\][\[\e[0;1;38;5;214m\]\u\[\e[0;1;38;5;185m\]@\[\e[0;1;38;5;38m\]\H\[\e[m\] \[\e[0;1;38;5;139m\]\w\[\e[0;1;38;5;196m\]]\[\e[0;1;97m\]$\[\e[m\] \[\e0' 
 
-figlet Thinkpad | lolcat -t
+#figlet Thinkpad | lolcat -t
