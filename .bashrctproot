@@ -50,7 +50,7 @@ ex ()
 ### ALIASES ###
 
 #shutdown
-alias shutdown='sudo openrc-shutdown -p now'
+#alias shutdown='sudo openrc-shutdown -p now'
 
 # navigation
 alias ..='cd ..' 
@@ -59,9 +59,15 @@ alias .3='cd ../../..'
 alias .4='cd ../../..'
 alias .5='cd ../../../..'
 alias .6='cd ../../../../..'
-alias steam='cd /run/media/ohmy/steam/'
-alias lindat='cd /run/media/ohmy/linuxdata/'
-alias aosp='cd /run/media/ohmy/AOSP/'
+
+# pacman and yay
+alias pac='sudo pacman'
+alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
+alias parusua="paru -Sua --noconfirm"              # update only AUR pkgs
+alias parusyu="paru -Syu --noconfirm"              # update standard pkgs and AUR pkgs
+alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
+alias purge='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
+#######^noobunutu####
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -79,10 +85,5 @@ alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 
-alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
-
-# Proton
-export STEAM_COMPAT_DATA_PATH=$HOME/proton
-
 #Bash Prompt
-PS1='\[\e[0;1;38;5;196m\][\[\e[0;1;38;5;214m\]\u\[\e[0;1;38;5;185m\]@\[\e[0;1;38;5;38m\]\H\[\e[m\] \[\e[0;1;38;5;139m\]\w\[\e[0;1;38;5;196m\]]\[\e[0;1;97m\]$\[\e[m\] \[\e0' 
+export PS1="\[\033[38;5;8m\][\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;196m\]\u\[$(tput sgr0)\]\[\033[38;5;8m\]@\H\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;13m\]\w\[$(tput sgr0)\]\[\033[38;5;8m\]]\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;196m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
