@@ -63,13 +63,13 @@ alias steam='cd /run/media/ohmy/steam/'
 alias lindat='cd /run/media/ohmy/linuxdata/'
 alias aosp='cd /run/media/ohmy/AOSP/'
 
-# pacman and yay
+# pacman and paru
 alias pac='sudo pacman'
-alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
-alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs
-alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs
-alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
-alias purge='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
+alias pacsyu='sudo pacman -Syyu'                   # update only standard pkgs
+alias parusua="paru -Sua --noconfirm"              # update only AUR pkgs
+alias parusyu="paru -Syu --noconfirm"              # update standard pkgs and AUR pkgs
+alias unlock="sudo rm /var/lib/pacman/db.lck"      # remove pacman lock
+alias purge='sudo pacman -Rns $(pacman -Qtdq)'     # remove orphaned packages
 #######^noobunutu####
 
 # Colorize grep output (good for log files)
