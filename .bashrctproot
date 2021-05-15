@@ -50,7 +50,7 @@ ex ()
 ### ALIASES ###
 
 #shutdown
-#alias shutdown='sudo openrc-shutdown -p now'
+alias shutdown='sudo openrc-shutdown -p now'
 
 # navigation
 alias ..='cd ..' 

@@ -2,8 +2,8 @@
 sudo sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf ;
 echo Moving Personal Configs ;
 sleep 1 ;
-cp Linuxstuffs/.bashrc ~/.bashrc ;
-sudo cp Linuxstuffs/.bashrcArtixROOT /root/.bashrc
+cp Linuxstuffs/.bashrctp ~/.bashrc ;
+sudo cp Linuxstuffs/.bashrctproot /root/.bashrc
 cp Linuxstuffs/wallhaven.jpg ~/Pictures ; 
 cp -r Linuxstuffs/.config-thinkpad/.Xresources ~/.Xresources ; 
 cp -r Linuxstuffs/.config-thinkpad/bspwm ~/.config/ ;
