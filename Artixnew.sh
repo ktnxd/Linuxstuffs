@@ -1,5 +1,5 @@
 echo Enable Arch Repo ;
-sudo pacman -Syyy artix-archlinux-support ;
+sudo pacman -Syyy --noconfirm artix-archlinux-support ;
 sudo echo -e "\n[multilib]\nInclude = /etc/pacman.d/mirrorlist-arch" >> /etc/pacman.conf ;
 sudo echo -e "\n[extra]\nInclude = /etc/pacman.d/mirrorlist-arch" >> /etc/pacman.conf ;
 sudo echo -e "\n[community]\nInclude = /etc/pacman.d/mirrorlist-arch" >> /etc/pacman.conf ;
