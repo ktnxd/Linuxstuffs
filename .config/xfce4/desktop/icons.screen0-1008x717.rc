@@ -1,14 +1,6 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/ohmy/Desktop/steam.desktop]
-row=6
-col=0
-
-[2507d42a-f767-4c59-8437-892d610af2a6]
-row=2
-col=0
-
 [2f691935-cee8-4e57-afcf-de3c733b7021]
 row=1
 col=0
@@ -17,8 +9,8 @@ col=0
 row=5
 col=0
 
-[2021-05-31-17-19-31-00]
-row=7
+[2507d42a-f767-4c59-8437-892d610af2a6]
+row=2
 col=0
 
 [Wastebasket]

@@ -5,6 +5,7 @@ cp Linuxstuffs/.bashrc ~/.bashrc ;
 sudo cp Linuxstuffs/.bashrcArtixROOT /root/.bashrc ;
 cp Linuxstuffs/wallhaven.jpg ~/Pictures ;
 cp -r Linuxstuffs/.config/xfce4 ~/.config/ ;
+cp -r Linuxstuffs/.config/neofetch ~/.config/ ;
 #Update & Standard packages
 sudo pacman -Syyyu base-devel multilib-devel libsystemd qt5-base zlib libdbusmenu-qt5 quazip libpulse qt5-tools libxcb xcb-util-wm qt5-x11extras git ;
 #Wine
