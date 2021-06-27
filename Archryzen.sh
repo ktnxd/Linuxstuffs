@@ -24,7 +24,7 @@ cd paru/ ;
 makepkg -si ;
 cd ;
 #AUR
-paru -S protontricks gamemode matcha-gtk-theme qogir-icon-theme qogir-gtk-theme etcher ;
+paru -S protontricks gamemode matcha-gtk-theme etcher ;
 #Zen kernel
 sudo pacman -S linux-zen linux-zen-headers && sudo grub-mkconfig -o /boot/grub/grub.cfg
 #Proton
