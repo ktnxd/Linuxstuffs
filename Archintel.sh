@@ -13,7 +13,7 @@ sudo pacman -S wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib3
 #Other shit
 sudo pacman -S discord firefox steam steam-native-runtime lutris exa android-tools android-udev papirus-icon-theme tar vlc lightdm-gtk-greeter-settings grub-customizer ;
 #Drivers
-sudo pacman -S nvidia nvidia-utils nvidia-dkms nvidia-cg-toolkit nvidia-prime nvidia-settings lib32-nvidia-utils amd-ucode piper ;
+sudo pacman -S nvidia nvidia-utils nvidia-dkms nvidia-cg-toolkit nvidia-prime nvidia-settings lib32-nvidia-utils intel-ucode piper ;
 #BFS
 git clone https://github.com/ckb-next/ckb-next.git ;
 cd ckb-next/ ; 
