@@ -26,7 +26,7 @@ cd ;
 #AUR
 paru -S protontricks gamemode matcha-gtk-theme etcher ;
 #Zen kernel
-sudo pacman -S linux-zen linux-zen-headers && sudo grub-mkconfig -o /boot/grub/grub.cfg
+#sudo pacman -S linux-zen linux-zen-headers && sudo grub-mkconfig -o /boot/grub/grub.cfg
 #Proton
 mkdir GE ; cd GE/ ; wget https://github.com/GloriousEggroll/proton-ge-custom/releases/download/6.10-GE-1/Proton-6.10-GE-1.tar.gz ; mkdir -p ~/.steam/root/compatibilitytools.d ; tar -xf Proton-6.10-GE-1.tar.gz -C ~/.steam/root/compatibilitytools.d/ ; cd ;
 mkdir proton ;

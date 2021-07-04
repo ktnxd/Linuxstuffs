@@ -1,0 +1,832 @@
+12:14:00 PM.165: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+12:14:00 PM.165: CPU Speed: 4641.358MHz
+12:14:00 PM.165: Physical Cores: 6, Logical Cores: 12
+12:14:00 PM.165: Physical Memory: 15987MB Total, 161MB Free
+12:14:00 PM.165: Kernel Version: Linux 5.12.13-zen1-2-zen
+12:14:00 PM.165: Distribution: "Arch Linux" Unknown
+12:14:00 PM.165: Session Type: x11
+12:14:00 PM.165: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+12:14:00 PM.166: Portable mode: false
+12:14:00 PM.186: OBS 27.0.1-1 (linux)
+12:14:00 PM.186: ---------------------------------
+12:14:00 PM.209: ---------------------------------
+12:14:00 PM.209: audio settings reset:
+12:14:00 PM.209: 	samples per sec: 48000
+12:14:00 PM.209: 	speakers:        2
+12:14:00 PM.210: ---------------------------------
+12:14:00 PM.210: Initializing OpenGL...
+12:14:00 PM.247: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 970/PCIe/SSE2
+12:14:00 PM.247: OpenGL loaded successfully, version 3.3.0 NVIDIA 465.31, shading language 3.30 NVIDIA via Cg compiler
+12:14:00 PM.255: ---------------------------------
+12:14:00 PM.255: video settings reset:
+12:14:00 PM.255: 	base resolution:   1280x720
+12:14:00 PM.255: 	output resolution: 1280x720
+12:14:00 PM.255: 	downscale filter:  Bilinear
+12:14:00 PM.255: 	fps:               60/1
+12:14:00 PM.255: 	format:            NV12
+12:14:00 PM.255: 	YUV mode:          709/Partial
+12:14:00 PM.255: NV12 texture support not available
+12:14:00 PM.255: Audio monitoring device:
+12:14:00 PM.255: 	name: Default
+12:14:00 PM.255: 	id: default
+12:14:00 PM.256: ---------------------------------
+12:14:00 PM.258: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:14:00 PM.260: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+12:14:00 PM.262: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+12:14:00 PM.262: 
+12:14:00 PM.262: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+12:14:00 PM.268: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:14:00 PM.268: No blackmagic support
+12:14:00 PM.277: v4l2loopback not installed, virtual camera disabled
+12:14:00 PM.292: NVENC supported
+12:14:00 PM.292: FFMPEG VAAPI supported
+12:14:00 PM.302: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7.1: cannot open shared object file: No such file or directory
+12:14:00 PM.302: 
+12:14:00 PM.302: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+12:14:00 PM.303: ---------------------------------
+12:14:00 PM.303:   Loaded Modules:
+12:14:00 PM.303:     text-freetype2.so
+12:14:00 PM.303:     rtmp-services.so
+12:14:00 PM.303:     obs-x264.so
+12:14:00 PM.303:     obs-transitions.so
+12:14:00 PM.303:     obs-outputs.so
+12:14:00 PM.303:     obs-libfdk.so
+12:14:00 PM.303:     obs-filters.so
+12:14:00 PM.303:     obs-ffmpeg.so
+12:14:00 PM.303:     linux-v4l2.so
+12:14:00 PM.303:     linux-pulseaudio.so
+12:14:00 PM.303:     linux-jack.so
+12:14:00 PM.303:     linux-decklink.so
+12:14:00 PM.303:     linux-capture.so
+12:14:00 PM.303:     linux-alsa.so
+12:14:00 PM.303:     image-source.so
+12:14:00 PM.303:     decklink-ouput-ui.so
+12:14:00 PM.303:     decklink-captions.so
+12:14:00 PM.303: ---------------------------------
+12:14:00 PM.303: ==== Startup complete ===============================================
+12:14:00 PM.307: All scene data cleared
+12:14:00 PM.307: ------------------------------------------------
+12:14:00 PM.315: pulse-input: Server name: 'pulseaudio 14.2'
+12:14:00 PM.315: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:14:00 PM.315: pulse-input: Started recording from 'alsa_output.pci-0000_2b_00.1.hdmi-stereo-extra1.monitor'
+12:14:00 PM.315: [Loaded global audio device]: 'Desktop Audio'
+12:14:00 PM.340: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:00 PM.340: 	title: Battlefield 4
+12:14:00 PM.340: 	class: bf4.exe
+12:14:00 PM.340: 	Bit depth: 24
+12:14:00 PM.340: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.340: 
+12:14:00 PM.341: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:00 PM.341: 	title: Battlefield 4
+12:14:00 PM.341: 	class: bf4.exe
+12:14:00 PM.341: 	Bit depth: 24
+12:14:00 PM.341: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.341: 
+12:14:00 PM.341: Switched to scene 'Scene'
+12:14:00 PM.341: ------------------------------------------------
+12:14:00 PM.341: Loaded scenes:
+12:14:00 PM.341: - scene 'Scene':
+12:14:00 PM.347:     - source: 'Window Capture (Xcomposite)k' (xcomposite_input)
+12:14:00 PM.347:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+12:14:00 PM.347: ------------------------------------------------
+12:14:00 PM.413: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:00 PM.413: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:00 PM.415: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:00 PM.415: 	title: Battlefield 4
+12:14:00 PM.415: 	class: bf4.exe
+12:14:00 PM.415: 	Bit depth: 24
+12:14:00 PM.415: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.415: 
+12:14:00 PM.416: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:00 PM.416: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:00 PM.416: 	title: Battlefield 4
+12:14:00 PM.416: 	class: bf4.exe
+12:14:00 PM.416: 	Bit depth: 24
+12:14:00 PM.416: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.416: 
+12:14:00 PM.527: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:00 PM.530: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:00 PM.530: 	title: Battlefield 4
+12:14:00 PM.530: 	class: bf4.exe
+12:14:00 PM.530: 	Bit depth: 24
+12:14:00 PM.530: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.530: 
+12:14:00 PM.531: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:00 PM.531: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:00 PM.531: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:00 PM.531: 	title: Battlefield 4
+12:14:00 PM.531: 	class: bf4.exe
+12:14:00 PM.531: 	Bit depth: 24
+12:14:00 PM.531: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.531: 
+12:14:00 PM.539: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:00 PM.541: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:00 PM.541: 	title: Battlefield 4
+12:14:00 PM.541: 	class: bf4.exe
+12:14:00 PM.541: 	Bit depth: 24
+12:14:00 PM.541: 	Found proper GLXFBConfig (in 9): yes
+12:14:00 PM.541: 
+12:14:00 PM.863: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+12:14:00 PM.863: 
+12:14:01 PM.290: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:01 PM.292: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:01 PM.292: 	title: Battlefield 4
+12:14:01 PM.292: 	class: bf4.exe
+12:14:01 PM.292: 	Bit depth: 24
+12:14:01 PM.292: 	Found proper GLXFBConfig (in 9): yes
+12:14:01 PM.292: 
+12:14:01 PM.292: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:01 PM.292: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:01 PM.293: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:01 PM.293: 	title: Battlefield 4
+12:14:01 PM.293: 	class: bf4.exe
+12:14:01 PM.293: 	Bit depth: 24
+12:14:01 PM.293: 	Found proper GLXFBConfig (in 9): yes
+12:14:01 PM.293: 
+12:14:03 PM.611: ---------------------------------
+12:14:03 PM.611: [NVENC encoder: 'simple_h264_recording'] settings:
+12:14:03 PM.611: 	rate_control: CQP
+12:14:03 PM.611: 	bitrate:      0
+12:14:03 PM.611: 	cqp:          21
+12:14:03 PM.611: 	keyint:       250
+12:14:03 PM.611: 	preset:       hq
+12:14:03 PM.611: 	profile:      high
+12:14:03 PM.611: 	width:        1280
+12:14:03 PM.611: 	height:       720
+12:14:03 PM.611: 	2-pass:       false
+12:14:03 PM.611: 	b-frames:     2
+12:14:03 PM.611: 	psycho-aq:    1
+12:14:03 PM.611: 	GPU:          0
+12:14:03 PM.611: 
+12:14:03 PM.815: libfdk_aac encoder created
+12:14:03 PM.815: libfdk_aac bitrate: 192, channels: 2
+12:14:03 PM.818: ==== Replay Buffer Start ===========================================
+12:14:15 PM.758: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:15 PM.758: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:15 PM.758: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:15 PM.758: 	title: Battlefield 4
+12:14:15 PM.758: 	class: bf4.exe
+12:14:15 PM.758: 	Bit depth: 24
+12:14:15 PM.758: 	Found proper GLXFBConfig (in 9): yes
+12:14:15 PM.758: 
+12:14:17 PM.824: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:17 PM.825: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:17 PM.825: 	title: Battlefield 4
+12:14:17 PM.825: 	class: bf4.exe
+12:14:17 PM.825: 	Bit depth: 24
+12:14:17 PM.825: 	Found proper GLXFBConfig (in 9): yes
+12:14:17 PM.825: 
+12:14:17 PM.826: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:17 PM.826: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:17 PM.827: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:17 PM.827: 	title: Battlefield 4
+12:14:17 PM.827: 	class: bf4.exe
+12:14:17 PM.827: 	Bit depth: 24
+12:14:17 PM.827: 	Found proper GLXFBConfig (in 9): yes
+12:14:17 PM.827: 
+12:14:18 PM.377: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:18 PM.380: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:18 PM.380: 	title: Battlefield 4
+12:14:18 PM.380: 	class: bf4.exe
+12:14:18 PM.380: 	Bit depth: 24
+12:14:18 PM.380: 	Found proper GLXFBConfig (in 9): yes
+12:14:18 PM.380: 
+12:14:18 PM.382: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:18 PM.382: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:18 PM.382: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:18 PM.382: 	title: Battlefield 4
+12:14:18 PM.382: 	class: bf4.exe
+12:14:18 PM.382: 	Bit depth: 24
+12:14:18 PM.382: 	Found proper GLXFBConfig (in 9): yes
+12:14:18 PM.382: 
+12:14:18 PM.389: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:18 PM.398: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:18 PM.398: 	title: Battlefield 4
+12:14:18 PM.398: 	class: bf4.exe
+12:14:18 PM.398: 	Bit depth: 24
+12:14:18 PM.398: 	Found proper GLXFBConfig (in 9): yes
+12:14:18 PM.398: 
+12:14:23 PM.372: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:23 PM.377: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:23 PM.377: 	title: Battlefield 4
+12:14:23 PM.377: 	class: bf4.exe
+12:14:23 PM.377: 	Bit depth: 24
+12:14:23 PM.377: 	Found proper GLXFBConfig (in 9): yes
+12:14:23 PM.377: 
+12:14:26 PM.625: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:26 PM.632: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:26 PM.632: 	title: Battlefield 4
+12:14:26 PM.632: 	class: bf4.exe
+12:14:26 PM.632: 	Bit depth: 24
+12:14:26 PM.632: 	Found proper GLXFBConfig (in 9): yes
+12:14:26 PM.632: 
+12:14:26 PM.634: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:26 PM.634: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:26 PM.634: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:26 PM.634: 	title: Battlefield 4
+12:14:26 PM.634: 	class: bf4.exe
+12:14:26 PM.634: 	Bit depth: 24
+12:14:26 PM.634: 	Found proper GLXFBConfig (in 9): yes
+12:14:26 PM.634: 
+12:14:26 PM.639: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:26 PM.641: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:26 PM.641: 	title: Battlefield 4
+12:14:26 PM.641: 	class: bf4.exe
+12:14:26 PM.641: 	Bit depth: 24
+12:14:26 PM.641: 	Found proper GLXFBConfig (in 9): yes
+12:14:26 PM.641: 
+12:14:52 PM.051: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:52 PM.054: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:52 PM.054: 	title: Battlefield 4
+12:14:52 PM.054: 	class: bf4.exe
+12:14:52 PM.054: 	Bit depth: 24
+12:14:52 PM.054: 	Found proper GLXFBConfig (in 9): yes
+12:14:52 PM.054: 
+12:14:52 PM.054: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:52 PM.054: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:52 PM.054: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:52 PM.054: 	title: Battlefield 4
+12:14:52 PM.054: 	class: bf4.exe
+12:14:52 PM.054: 	Bit depth: 24
+12:14:52 PM.054: 	Found proper GLXFBConfig (in 9): yes
+12:14:52 PM.054: 
+12:14:52 PM.907: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:52 PM.909: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:52 PM.909: 	title: Battlefield 4
+12:14:52 PM.909: 	class: bf4.exe
+12:14:52 PM.909: 	Bit depth: 24
+12:14:52 PM.909: 	Found proper GLXFBConfig (in 9): yes
+12:14:52 PM.909: 
+12:14:52 PM.910: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:52 PM.910: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:52 PM.910: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:52 PM.910: 	title: Battlefield 4
+12:14:52 PM.910: 	class: bf4.exe
+12:14:52 PM.910: 	Bit depth: 24
+12:14:52 PM.910: 	Found proper GLXFBConfig (in 9): yes
+12:14:52 PM.910: 
+12:14:56 PM.685: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:56 PM.685: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:14:56 PM.687: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:56 PM.687: 	title: Battlefield 4
+12:14:56 PM.687: 	class: bf4.exe
+12:14:56 PM.687: 	Bit depth: 24
+12:14:56 PM.687: 	Found proper GLXFBConfig (in 9): yes
+12:14:56 PM.687: 
+12:14:56 PM.689: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:14:56 PM.690: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:14:56 PM.690: 	title: Battlefield 4
+12:14:56 PM.690: 	class: bf4.exe
+12:14:56 PM.690: 	Bit depth: 24
+12:14:56 PM.690: 	Found proper GLXFBConfig (in 9): yes
+12:14:56 PM.690: 
+12:15:01 PM.459: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:01 PM.459: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:15:01 PM.462: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:15:01 PM.462: 	title: Battlefield 4
+12:15:01 PM.462: 	class: bf4.exe
+12:15:01 PM.462: 	Bit depth: 24
+12:15:01 PM.462: 	Found proper GLXFBConfig (in 9): yes
+12:15:01 PM.462: 
+12:15:01 PM.462: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:01 PM.463: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:15:01 PM.463: 	title: Battlefield 4
+12:15:01 PM.463: 	class: bf4.exe
+12:15:01 PM.463: 	Bit depth: 24
+12:15:01 PM.463: 	Found proper GLXFBConfig (in 9): yes
+12:15:01 PM.463: 
+12:15:09 PM.541: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:09 PM.543: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:15:09 PM.543: 	title: Battlefield 4
+12:15:09 PM.543: 	class: bf4.exe
+12:15:09 PM.543: 	Bit depth: 24
+12:15:09 PM.543: 	Found proper GLXFBConfig (in 9): yes
+12:15:09 PM.543: 
+12:15:09 PM.543: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:09 PM.543: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:15:09 PM.544: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:15:09 PM.544: 	title: Battlefield 4
+12:15:09 PM.544: 	class: bf4.exe
+12:15:09 PM.544: 	Bit depth: 24
+12:15:09 PM.544: 	Found proper GLXFBConfig (in 9): yes
+12:15:09 PM.544: 
+12:15:18 PM.060: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:18 PM.063: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:15:18 PM.063: 	title: Battlefield 4
+12:15:18 PM.063: 	class: bf4.exe
+12:15:18 PM.063: 	Bit depth: 24
+12:15:18 PM.063: 	Found proper GLXFBConfig (in 9): yes
+12:15:18 PM.063: 
+12:15:18 PM.064: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:18 PM.064: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:15:18 PM.064: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:15:18 PM.064: 	title: Battlefield 4
+12:15:18 PM.064: 	class: bf4.exe
+12:15:18 PM.064: 	Bit depth: 24
+12:15:18 PM.064: 	Found proper GLXFBConfig (in 9): yes
+12:15:18 PM.064: 
+12:15:20 PM.075: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/run/media/ohmy/1TB/clips/Replay_2021-07-04_12-15-20.mp4'
+12:15:20 PM.479: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:20 PM.482: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:15:20 PM.482: 	title: Battlefield 4
+12:15:20 PM.482: 	class: bf4.exe
+12:15:20 PM.482: 	Bit depth: 24
+12:15:20 PM.482: 	Found proper GLXFBConfig (in 9): yes
+12:15:20 PM.482: 
+12:15:20 PM.482: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:20 PM.482: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:15:20 PM.483: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:15:20 PM.483: 	title: Battlefield 4
+12:15:20 PM.483: 	class: bf4.exe
+12:15:20 PM.483: 	Bit depth: 24
+12:15:20 PM.483: 	Found proper GLXFBConfig (in 9): yes
+12:15:20 PM.483: 
+12:15:20 PM.990: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:20 PM.992: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:15:20 PM.992: 	title: Battlefield 4
+12:15:20 PM.992: 	class: bf4.exe
+12:15:20 PM.992: 	Bit depth: 24
+12:15:20 PM.992: 	Found proper GLXFBConfig (in 9): yes
+12:15:20 PM.992: 
+12:15:20 PM.992: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:15:20 PM.992: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:15:20 PM.993: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:15:20 PM.993: 	title: Battlefield 4
+12:15:20 PM.993: 	class: bf4.exe
+12:15:20 PM.993: 	Bit depth: 24
+12:15:20 PM.993: 	Found proper GLXFBConfig (in 9): yes
+12:15:20 PM.993: 
+12:16:19 PM.644: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:19 PM.647: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:16:19 PM.647: 	title: Battlefield 4
+12:16:19 PM.647: 	class: bf4.exe
+12:16:19 PM.647: 	Bit depth: 24
+12:16:19 PM.647: 	Found proper GLXFBConfig (in 9): yes
+12:16:19 PM.647: 
+12:16:19 PM.648: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:19 PM.648: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:16:19 PM.648: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:16:19 PM.648: 	title: Battlefield 4
+12:16:19 PM.648: 	class: bf4.exe
+12:16:19 PM.648: 	Bit depth: 24
+12:16:19 PM.648: 	Found proper GLXFBConfig (in 9): yes
+12:16:19 PM.648: 
+12:16:22 PM.989: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:22 PM.992: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:16:22 PM.992: 	title: Battlefield 4
+12:16:22 PM.992: 	class: bf4.exe
+12:16:22 PM.992: 	Bit depth: 24
+12:16:22 PM.992: 	Found proper GLXFBConfig (in 9): yes
+12:16:22 PM.992: 
+12:16:22 PM.992: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:22 PM.992: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:16:22 PM.993: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:16:22 PM.993: 	title: Battlefield 4
+12:16:22 PM.993: 	class: bf4.exe
+12:16:22 PM.993: 	Bit depth: 24
+12:16:22 PM.993: 	Found proper GLXFBConfig (in 9): yes
+12:16:22 PM.993: 
+12:16:24 PM.765: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:24 PM.768: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:16:24 PM.768: 	title: Battlefield 4
+12:16:24 PM.768: 	class: bf4.exe
+12:16:24 PM.768: 	Bit depth: 24
+12:16:24 PM.768: 	Found proper GLXFBConfig (in 9): yes
+12:16:24 PM.768: 
+12:16:24 PM.770: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:24 PM.770: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:16:24 PM.770: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:16:24 PM.770: 	title: Battlefield 4
+12:16:24 PM.770: 	class: bf4.exe
+12:16:24 PM.770: 	Bit depth: 24
+12:16:24 PM.770: 	Found proper GLXFBConfig (in 9): yes
+12:16:24 PM.770: 
+12:16:24 PM.772: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:24 PM.774: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:16:24 PM.774: 	title: Battlefield 4
+12:16:24 PM.774: 	class: bf4.exe
+12:16:24 PM.774: 	Bit depth: 24
+12:16:24 PM.774: 	Found proper GLXFBConfig (in 9): yes
+12:16:24 PM.774: 
+12:16:24 PM.790: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/run/media/ohmy/1TB/clips/Replay_2021-07-04_12-16-24.mp4'
+12:16:41 PM.238: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:41 PM.247: xcompcap: [window-capture: 'Window Capture (Xcomposite)k'] update settings:
+12:16:41 PM.247: 	title: Battlefield 4
+12:16:41 PM.247: 	class: bf4.exe
+12:16:41 PM.247: 	Bit depth: 24
+12:16:41 PM.247: 	Found proper GLXFBConfig (in 9): yes
+12:16:41 PM.247: 
+12:16:41 PM.248: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:41 PM.248: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:16:41 PM.249: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:16:41 PM.249: 	title: Battlefield 4
+12:16:41 PM.249: 	class: bf4.exe
+12:16:41 PM.249: 	Bit depth: 24
+12:16:41 PM.249: 	Found proper GLXFBConfig (in 9): yes
+12:16:41 PM.249: 
+12:16:49 PM.005: User Removed source 'Window Capture (Xcomposite)k' (xcomposite_input) from scene 'Scene'
+12:16:49 PM.010: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:53 PM.735: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'Scene'
+12:16:53 PM.739: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:16:53 PM.740: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+12:17:01 PM.718: v4l2-input: Start capture from 
+12:17:01 PM.718: v4l2-input: Unable to open device
+12:17:01 PM.718: v4l2-input: Initialization failed
+12:17:01 PM.720: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Scene'
+12:17:01 PM.726: v4l2-input: Start capture from 
+12:17:01 PM.726: v4l2-input: Unable to open device
+12:17:01 PM.726: v4l2-input: Initialization failed
+12:17:12 PM.561: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'Scene'
+12:17:12 PM.572: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:12 PM.584: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:12 PM.584: 	title: xfce4-panel
+12:17:12 PM.584: 	class: xfce4-panel
+12:17:12 PM.584: 	Bit depth: 32
+12:17:12 PM.584: 	Found proper GLXFBConfig (in 9): yes
+12:17:12 PM.584: 
+12:17:12 PM.585: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:12 PM.593: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:12 PM.593: 	title: xfce4-panel
+12:17:12 PM.593: 	class: xfce4-panel
+12:17:12 PM.593: 	Bit depth: 32
+12:17:12 PM.593: 	Found proper GLXFBConfig (in 9): yes
+12:17:12 PM.593: 
+12:17:12 PM.609: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:12 PM.619: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:12 PM.619: 	title: xfce4-panel
+12:17:12 PM.619: 	class: xfce4-panel
+12:17:12 PM.619: 	Bit depth: 32
+12:17:12 PM.619: 	Found proper GLXFBConfig (in 9): yes
+12:17:12 PM.619: 
+12:17:12 PM.645: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:12 PM.654: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:12 PM.654: 	title: xfce4-panel
+12:17:12 PM.654: 	class: xfce4-panel
+12:17:12 PM.654: 	Bit depth: 32
+12:17:12 PM.654: 	Found proper GLXFBConfig (in 9): yes
+12:17:12 PM.654: 
+12:17:13 PM.106: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.113: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.113: 	title: xfce4-panel
+12:17:13 PM.113: 	class: xfce4-panel
+12:17:13 PM.113: 	Bit depth: 32
+12:17:13 PM.113: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.113: 
+12:17:13 PM.173: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.176: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.176: 	title: xfce4-panel
+12:17:13 PM.176: 	class: xfce4-panel
+12:17:13 PM.176: 	Bit depth: 32
+12:17:13 PM.176: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.176: 
+12:17:13 PM.539: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.549: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.549: 	title: xfce4-panel
+12:17:13 PM.549: 	class: xfce4-panel
+12:17:13 PM.549: 	Bit depth: 32
+12:17:13 PM.549: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.549: 
+12:17:13 PM.556: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.563: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.563: 	title: xfce4-panel
+12:17:13 PM.563: 	class: xfce4-panel
+12:17:13 PM.563: 	Bit depth: 32
+12:17:13 PM.563: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.563: 
+12:17:13 PM.572: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.580: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.580: 	title: xfce4-panel
+12:17:13 PM.580: 	class: xfce4-panel
+12:17:13 PM.580: 	Bit depth: 32
+12:17:13 PM.580: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.580: 
+12:17:13 PM.589: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.598: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.598: 	title: xfce4-panel
+12:17:13 PM.598: 	class: xfce4-panel
+12:17:13 PM.598: 	Bit depth: 32
+12:17:13 PM.598: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.598: 
+12:17:13 PM.606: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.614: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.614: 	title: xfce4-panel
+12:17:13 PM.614: 	class: xfce4-panel
+12:17:13 PM.614: 	Bit depth: 32
+12:17:13 PM.614: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.614: 
+12:17:13 PM.622: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.633: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.633: 	title: xfce4-panel
+12:17:13 PM.633: 	class: xfce4-panel
+12:17:13 PM.633: 	Bit depth: 32
+12:17:13 PM.633: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.633: 
+12:17:13 PM.639: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.650: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.650: 	title: xfce4-panel
+12:17:13 PM.650: 	class: xfce4-panel
+12:17:13 PM.650: 	Bit depth: 32
+12:17:13 PM.650: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.650: 
+12:17:13 PM.656: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.668: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.668: 	title: xfce4-panel
+12:17:13 PM.668: 	class: xfce4-panel
+12:17:13 PM.668: 	Bit depth: 32
+12:17:13 PM.668: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.668: 
+12:17:13 PM.673: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.682: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.682: 	title: xfce4-panel
+12:17:13 PM.682: 	class: xfce4-panel
+12:17:13 PM.682: 	Bit depth: 32
+12:17:13 PM.682: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.682: 
+12:17:13 PM.689: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.698: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.698: 	title: xfce4-panel
+12:17:13 PM.698: 	class: xfce4-panel
+12:17:13 PM.698: 	Bit depth: 32
+12:17:13 PM.698: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.698: 
+12:17:13 PM.706: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.715: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.715: 	title: xfce4-panel
+12:17:13 PM.715: 	class: xfce4-panel
+12:17:13 PM.715: 	Bit depth: 32
+12:17:13 PM.715: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.715: 
+12:17:13 PM.722: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:13 PM.731: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:13 PM.731: 	title: xfce4-panel
+12:17:13 PM.731: 	class: xfce4-panel
+12:17:13 PM.731: 	Bit depth: 32
+12:17:13 PM.731: 	Found proper GLXFBConfig (in 9): yes
+12:17:13 PM.731: 
+12:17:14 PM.172: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:14 PM.183: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:14 PM.183: 	title: xfce4-panel
+12:17:14 PM.183: 	class: xfce4-panel
+12:17:14 PM.183: 	Bit depth: 32
+12:17:14 PM.183: 	Found proper GLXFBConfig (in 9): yes
+12:17:14 PM.183: 
+12:17:15 PM.172: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:15 PM.184: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:15 PM.184: 	title: xfce4-panel
+12:17:15 PM.184: 	class: xfce4-panel
+12:17:15 PM.184: 	Bit depth: 32
+12:17:15 PM.184: 	Found proper GLXFBConfig (in 9): yes
+12:17:15 PM.184: 
+12:17:15 PM.879: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:15 PM.890: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:15 PM.890: 	title: NOOB PARADISE / BEST MAP ONLY / NO LAG - Multiplayer - Battlelog / Battlefield 4 — Mozilla Firefox
+12:17:15 PM.890: 	class: Navigator
+12:17:15 PM.890: 	Bit depth: 32
+12:17:15 PM.890: 	Found proper GLXFBConfig (in 9): yes
+12:17:15 PM.890: 
+12:17:16 PM.356: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:16 PM.369: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:16 PM.369: 	title: NOOB PARADISE / BEST MAP ONLY / NO LAG - Multiplayer - Battlelog / Battlefield 4 — Mozilla Firefox
+12:17:16 PM.369: 	class: Navigator
+12:17:16 PM.369: 	Bit depth: 32
+12:17:16 PM.369: 	Found proper GLXFBConfig (in 9): yes
+12:17:16 PM.369: 
+12:17:17 PM.361: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:17 PM.375: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:17 PM.375: 	title: Battlefield 4
+12:17:17 PM.375: 	class: bf4.exe
+12:17:17 PM.375: 	Bit depth: 24
+12:17:17 PM.375: 	Found proper GLXFBConfig (in 9): yes
+12:17:17 PM.375: 
+12:17:17 PM.839: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:17 PM.851: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:17 PM.851: 	title: Battlefield 4
+12:17:17 PM.851: 	class: bf4.exe
+12:17:17 PM.851: 	Bit depth: 24
+12:17:17 PM.851: 	Found proper GLXFBConfig (in 9): yes
+12:17:17 PM.851: 
+12:17:20 PM.928: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:20 PM.934: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:20 PM.934: 	title: Battlefield 4
+12:17:20 PM.934: 	class: bf4.exe
+12:17:20 PM.934: 	Bit depth: 24
+12:17:20 PM.934: 	Found proper GLXFBConfig (in 9): yes
+12:17:20 PM.934: 
+12:17:20 PM.939: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:17:20 PM.941: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:20 PM.941: 	title: Battlefield 4
+12:17:20 PM.941: 	class: bf4.exe
+12:17:20 PM.941: 	Bit depth: 24
+12:17:20 PM.941: 	Found proper GLXFBConfig (in 9): yes
+12:17:20 PM.941: 
+12:21:18 PM.423: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:21:18 PM.425: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:21:18 PM.425: 	title: Battlefield 4
+12:21:18 PM.425: 	class: bf4.exe
+12:21:18 PM.425: 	Bit depth: 24
+12:21:18 PM.425: 	Found proper GLXFBConfig (in 9): yes
+12:21:18 PM.425: 
+12:21:19 PM.723: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:21:19 PM.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:21:19 PM.726: 	title: Battlefield 4
+12:21:19 PM.726: 	class: bf4.exe
+12:21:19 PM.726: 	Bit depth: 24
+12:21:19 PM.726: 	Found proper GLXFBConfig (in 9): yes
+12:21:19 PM.726: 
+12:23:41 PM.924: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/run/media/ohmy/1TB/clips/Replay_2021-07-04_12-23-41.mp4'
+12:26:38 PM.915: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:26:38 PM.922: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:26:38 PM.922: 	title: Battlefield 4
+12:26:38 PM.922: 	class: bf4.exe
+12:26:38 PM.922: 	Bit depth: 24
+12:26:38 PM.922: 	Found proper GLXFBConfig (in 9): yes
+12:26:38 PM.922: 
+12:27:00 PM.512: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:27:00 PM.525: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:27:00 PM.525: 	title: Battlefield 4
+12:27:00 PM.525: 	class: bf4.exe
+12:27:00 PM.525: 	Bit depth: 24
+12:27:00 PM.525: 	Found proper GLXFBConfig (in 9): yes
+12:27:00 PM.525: 
+12:27:00 PM.536: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:27:00 PM.539: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:27:00 PM.539: 	title: Battlefield 4
+12:27:00 PM.539: 	class: bf4.exe
+12:27:00 PM.539: 	Bit depth: 24
+12:27:00 PM.539: 	Found proper GLXFBConfig (in 9): yes
+12:27:00 PM.539: 
+12:27:01 PM.674: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:27:01 PM.677: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:27:01 PM.677: 	title: Battlefield 4
+12:27:01 PM.677: 	class: bf4.exe
+12:27:01 PM.677: 	Bit depth: 24
+12:27:01 PM.677: 	Found proper GLXFBConfig (in 9): yes
+12:27:01 PM.677: 
+12:27:31 PM.208: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:27:31 PM.212: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:27:31 PM.212: 	title: Battlefield 4
+12:27:31 PM.212: 	class: bf4.exe
+12:27:31 PM.212: 	Bit depth: 24
+12:27:31 PM.212: 	Found proper GLXFBConfig (in 9): yes
+12:27:31 PM.212: 
+12:27:58 PM.348: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:27:58 PM.351: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:27:58 PM.351: 	title: Battlefield 4
+12:27:58 PM.351: 	class: bf4.exe
+12:27:58 PM.351: 	Bit depth: 24
+12:27:58 PM.351: 	Found proper GLXFBConfig (in 9): yes
+12:27:58 PM.351: 
+12:28:02 PM.648: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/run/media/ohmy/1TB/clips/Replay_2021-07-04_12-28-02.mp4'
+12:28:07 PM.646: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:07 PM.652: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:07 PM.652: 	title: Battlefield 4
+12:28:07 PM.652: 	class: bf4.exe
+12:28:07 PM.652: 	Bit depth: 24
+12:28:07 PM.652: 	Found proper GLXFBConfig (in 9): yes
+12:28:07 PM.652: 
+12:28:26 PM.256: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:26 PM.258: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:26 PM.258: 	title: Battlefield 4
+12:28:26 PM.258: 	class: bf4.exe
+12:28:26 PM.258: 	Bit depth: 24
+12:28:26 PM.258: 	Found proper GLXFBConfig (in 9): yes
+12:28:26 PM.258: 
+12:28:27 PM.947: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:27 PM.950: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:27 PM.950: 	title: Battlefield 4
+12:28:27 PM.950: 	class: bf4.exe
+12:28:27 PM.950: 	Bit depth: 24
+12:28:27 PM.950: 	Found proper GLXFBConfig (in 9): yes
+12:28:27 PM.950: 
+12:28:27 PM.956: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:27 PM.957: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:27 PM.957: 	title: Battlefield 4
+12:28:27 PM.957: 	class: bf4.exe
+12:28:27 PM.957: 	Bit depth: 24
+12:28:27 PM.957: 	Found proper GLXFBConfig (in 9): yes
+12:28:27 PM.957: 
+12:28:27 PM.993: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/run/media/ohmy/1TB/clips/Replay_2021-07-04_12-28-27.mp4'
+12:28:45 PM.487: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:45 PM.502: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:45 PM.502: 	title: Battlefield 4
+12:28:45 PM.502: 	class: bf4.exe
+12:28:45 PM.502: 	Bit depth: 24
+12:28:45 PM.502: 	Found proper GLXFBConfig (in 9): yes
+12:28:45 PM.502: 
+12:28:45 PM.505: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:45 PM.507: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:45 PM.507: 	title: Battlefield 4
+12:28:45 PM.507: 	class: bf4.exe
+12:28:45 PM.507: 	Bit depth: 24
+12:28:45 PM.507: 	Found proper GLXFBConfig (in 9): yes
+12:28:45 PM.507: 
+12:28:47 PM.244: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:47 PM.246: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:47 PM.246: 	title: Battlefield 4
+12:28:47 PM.246: 	class: bf4.exe
+12:28:47 PM.246: 	Bit depth: 24
+12:28:47 PM.246: 	Found proper GLXFBConfig (in 9): yes
+12:28:47 PM.246: 
+12:28:51 PM.446: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:51 PM.457: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:51 PM.457: 	title: Battlefield 4
+12:28:51 PM.457: 	class: bf4.exe
+12:28:51 PM.457: 	Bit depth: 24
+12:28:51 PM.457: 	Found proper GLXFBConfig (in 9): yes
+12:28:51 PM.457: 
+12:28:53 PM.257: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:28:53 PM.273: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:28:53 PM.273: 	title: Battlefield 4
+12:28:53 PM.273: 	class: bf4.exe
+12:28:53 PM.273: 	Bit depth: 24
+12:28:53 PM.273: 	Found proper GLXFBConfig (in 9): yes
+12:28:53 PM.273: 
+12:29:00 PM.743: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:29:00 PM.770: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:29:00 PM.770: 	title: Battlefield 4
+12:29:00 PM.770: 	class: bf4.exe
+12:29:00 PM.770: 	Bit depth: 24
+12:29:00 PM.770: 	Found proper GLXFBConfig (in 9): yes
+12:29:00 PM.770: 
+12:29:01 PM.572: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:29:01 PM.578: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:29:01 PM.578: 	title: Battlefield 4
+12:29:01 PM.578: 	class: bf4.exe
+12:29:01 PM.578: 	Bit depth: 24
+12:29:01 PM.578: 	Found proper GLXFBConfig (in 9): yes
+12:29:01 PM.578: 
+12:37:00 PM.660: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:37:00 PM.667: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:37:00 PM.667: 	title: Battlefield 4
+12:37:00 PM.667: 	class: bf4.exe
+12:37:00 PM.667: 	Bit depth: 24
+12:37:00 PM.667: 	Found proper GLXFBConfig (in 9): yes
+12:37:00 PM.667: 
+12:37:00 PM.672: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:37:00 PM.674: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:37:00 PM.674: 	title: Battlefield 4
+12:37:00 PM.674: 	class: bf4.exe
+12:37:00 PM.674: 	Bit depth: 24
+12:37:00 PM.674: 	Found proper GLXFBConfig (in 9): yes
+12:37:00 PM.674: 
+12:37:09 PM.556: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:37:09 PM.567: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:37:09 PM.567: 	title: Battlefield 4
+12:37:09 PM.567: 	class: bf4.exe
+12:37:09 PM.567: 	Bit depth: 24
+12:37:09 PM.567: 	Found proper GLXFBConfig (in 9): yes
+12:37:09 PM.567: 
+12:37:09 PM.572: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:37:09 PM.578: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:37:09 PM.578: 	title: Battlefield 4
+12:37:09 PM.578: 	class: bf4.exe
+12:37:09 PM.578: 	Bit depth: 24
+12:37:09 PM.578: 	Found proper GLXFBConfig (in 9): yes
+12:37:09 PM.578: 
+12:45:52 PM.306: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:45:52 PM.312: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:45:52 PM.312: 	title: Battlefield 4
+12:45:52 PM.312: 	class: bf4.exe
+12:45:52 PM.312: 	Bit depth: 24
+12:45:52 PM.312: 	Found proper GLXFBConfig (in 9): yes
+12:45:52 PM.312: 
+12:46:12 PM.130: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:46:12 PM.140: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:46:12 PM.140: 	title: Battlefield 4
+12:46:12 PM.140: 	class: bf4.exe
+12:46:12 PM.140: 	Bit depth: 24
+12:46:12 PM.140: 	Found proper GLXFBConfig (in 9): yes
+12:46:12 PM.140: 
+12:46:12 PM.142: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:46:12 PM.144: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:46:12 PM.144: 	title: Battlefield 4
+12:46:12 PM.144: 	class: bf4.exe
+12:46:12 PM.144: 	Bit depth: 24
+12:46:12 PM.144: 	Found proper GLXFBConfig (in 9): yes
+12:46:12 PM.144: 
+12:46:14 PM.606: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:46:14 PM.608: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:46:14 PM.608: 	title: Battlefield 4
+12:46:14 PM.608: 	class: bf4.exe
+12:46:14 PM.608: 	Bit depth: 24
+12:46:14 PM.608: 	Found proper GLXFBConfig (in 9): yes
+12:46:14 PM.608: 
+12:46:20 PM.156: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+12:46:20 PM.171: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:46:20 PM.171: 	title: Battlefield 4
+12:46:20 PM.171: 	class: bf4.exe
+12:46:20 PM.171: 	Bit depth: 24
+12:46:20 PM.171: 	Found proper GLXFBConfig (in 9): yes
+12:46:20 PM.171: 
+03:32:49 PM.565: ==== Shutting down ==================================================
+03:32:49 PM.568: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 1649333
+03:32:49 PM.568: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 1649334
+03:32:49 PM.568: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+03:32:49 PM.569: pulse-input: Stopped recording from 'alsa_output.pci-0000_2b_00.1.hdmi-stereo-extra1.monitor'
+03:32:49 PM.569: pulse-input: Got 3886987 packets with 572586735 frames
+03:32:49 PM.569: All scene data cleared
+03:32:49 PM.569: ------------------------------------------------
+03:32:49 PM.573: X Error: GLXBadDrawable, Major opcode: 151, Minor opcode: 26, Serial: 12198001
+03:32:49 PM.573: Failed to make context current.
+03:32:49 PM.573: X Error: GLXBadDrawable, Major opcode: 151, Minor opcode: 26, Serial: 12198003
+03:32:49 PM.573: Failed to make context current.

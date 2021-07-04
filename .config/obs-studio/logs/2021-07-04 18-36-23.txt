@@ -1,0 +1,993 @@
+06:36:23 PM.824: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+06:36:23 PM.824: CPU Speed: 3421.377MHz
+06:36:23 PM.824: Physical Cores: 6, Logical Cores: 12
+06:36:23 PM.824: Physical Memory: 15987MB Total, 13372MB Free
+06:36:23 PM.824: Kernel Version: Linux 5.12.13-zen1-2-zen
+06:36:23 PM.824: Distribution: "Arch Linux" Unknown
+06:36:23 PM.824: Session Type: x11
+06:36:23 PM.824: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+06:36:23 PM.825: Portable mode: false
+06:36:23 PM.840: OBS 27.0.1-1 (linux)
+06:36:23 PM.840: ---------------------------------
+06:36:23 PM.863: ---------------------------------
+06:36:23 PM.863: audio settings reset:
+06:36:23 PM.863: 	samples per sec: 48000
+06:36:23 PM.863: 	speakers:        2
+06:36:23 PM.865: ---------------------------------
+06:36:23 PM.865: Initializing OpenGL...
+06:36:23 PM.892: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 970/PCIe/SSE2
+06:36:23 PM.892: OpenGL loaded successfully, version 3.3.0 NVIDIA 465.31, shading language 3.30 NVIDIA via Cg compiler
+06:36:23 PM.899: ---------------------------------
+06:36:23 PM.899: video settings reset:
+06:36:23 PM.899: 	base resolution:   1280x720
+06:36:23 PM.899: 	output resolution: 1280x720
+06:36:23 PM.899: 	downscale filter:  Bilinear
+06:36:23 PM.899: 	fps:               60/1
+06:36:23 PM.899: 	format:            NV12
+06:36:23 PM.899: 	YUV mode:          709/Partial
+06:36:23 PM.899: NV12 texture support not available
+06:36:23 PM.900: Audio monitoring device:
+06:36:23 PM.900: 	name: Default
+06:36:23 PM.900: 	id: default
+06:36:23 PM.900: ---------------------------------
+06:36:23 PM.901: Failed to load 'en-US' text for module: 'decklink-captions.so'
+06:36:23 PM.903: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+06:36:23 PM.904: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+06:36:23 PM.904: 
+06:36:23 PM.904: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+06:36:23 PM.910: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+06:36:23 PM.910: No blackmagic support
+06:36:23 PM.920: v4l2loopback not installed, virtual camera disabled
+06:36:23 PM.938: NVENC supported
+06:36:23 PM.938: FFMPEG VAAPI supported
+06:36:23 PM.950: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7.1: cannot open shared object file: No such file or directory
+06:36:23 PM.950: 
+06:36:23 PM.950: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+06:36:23 PM.951: ---------------------------------
+06:36:23 PM.951:   Loaded Modules:
+06:36:23 PM.951:     text-freetype2.so
+06:36:23 PM.951:     rtmp-services.so
+06:36:23 PM.951:     obs-x264.so
+06:36:23 PM.951:     obs-transitions.so
+06:36:23 PM.951:     obs-outputs.so
+06:36:23 PM.951:     obs-libfdk.so
+06:36:23 PM.951:     obs-filters.so
+06:36:23 PM.951:     obs-ffmpeg.so
+06:36:23 PM.951:     linux-v4l2.so
+06:36:23 PM.951:     linux-pulseaudio.so
+06:36:23 PM.951:     linux-jack.so
+06:36:23 PM.951:     linux-decklink.so
+06:36:23 PM.951:     linux-capture.so
+06:36:23 PM.951:     linux-alsa.so
+06:36:23 PM.951:     image-source.so
+06:36:23 PM.951:     decklink-ouput-ui.so
+06:36:23 PM.951:     decklink-captions.so
+06:36:23 PM.951: ---------------------------------
+06:36:23 PM.951: ==== Startup complete ===============================================
+06:36:23 PM.954: All scene data cleared
+06:36:23 PM.954: ------------------------------------------------
+06:36:23 PM.957: pulse-input: Server name: 'pulseaudio 14.2'
+06:36:23 PM.957: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+06:36:23 PM.957: pulse-input: Started recording from 'alsa_output.pci-0000_2b_00.1.hdmi-stereo-extra1.monitor'
+06:36:23 PM.957: [Loaded global audio device]: 'Desktop Audio'
+06:36:23 PM.958: v4l2-input: Start capture from 
+06:36:23 PM.958: v4l2-input: Unable to open device
+06:36:23 PM.958: v4l2-input: Initialization failed
+06:36:23 PM.958: Switched to scene 'Scene'
+06:36:23 PM.958: ------------------------------------------------
+06:36:23 PM.958: Loaded scenes:
+06:36:23 PM.958: - scene 'Scene':
+06:36:23 PM.958:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+06:36:23 PM.958:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+06:36:23 PM.958: ------------------------------------------------
+06:36:24 PM.558: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+06:36:24 PM.558: 
+06:36:30 PM.818: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Scene'
+06:36:35 PM.211: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:35 PM.211: 	title: xfce4-panel
+06:36:35 PM.211: 	class: xfce4-panel
+06:36:35 PM.211: 	Bit depth: 32
+06:36:35 PM.211: 	Found proper GLXFBConfig (in 9): yes
+06:36:35 PM.211: 
+06:36:35 PM.733: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:35 PM.738: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:35 PM.738: 	title: xfce4-panel
+06:36:35 PM.738: 	class: xfce4-panel
+06:36:35 PM.738: 	Bit depth: 32
+06:36:35 PM.738: 	Found proper GLXFBConfig (in 9): yes
+06:36:35 PM.738: 
+06:36:36 PM.166: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.172: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.172: 	title: xfce4-panel
+06:36:36 PM.172: 	class: xfce4-panel
+06:36:36 PM.172: 	Bit depth: 32
+06:36:36 PM.172: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.172: 
+06:36:36 PM.500: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.503: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.503: 	title: xfce4-panel
+06:36:36 PM.503: 	class: xfce4-panel
+06:36:36 PM.503: 	Bit depth: 32
+06:36:36 PM.503: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.503: 
+06:36:36 PM.517: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.519: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.519: 	title: xfce4-panel
+06:36:36 PM.519: 	class: xfce4-panel
+06:36:36 PM.519: 	Bit depth: 32
+06:36:36 PM.519: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.519: 
+06:36:36 PM.533: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.536: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.536: 	title: xfce4-panel
+06:36:36 PM.536: 	class: xfce4-panel
+06:36:36 PM.536: 	Bit depth: 32
+06:36:36 PM.536: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.536: 
+06:36:36 PM.550: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.552: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.552: 	title: xfce4-panel
+06:36:36 PM.552: 	class: xfce4-panel
+06:36:36 PM.552: 	Bit depth: 32
+06:36:36 PM.552: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.552: 
+06:36:36 PM.568: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.570: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.570: 	title: xfce4-panel
+06:36:36 PM.570: 	class: xfce4-panel
+06:36:36 PM.570: 	Bit depth: 32
+06:36:36 PM.570: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.570: 
+06:36:36 PM.583: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.586: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.586: 	title: xfce4-panel
+06:36:36 PM.586: 	class: xfce4-panel
+06:36:36 PM.586: 	Bit depth: 32
+06:36:36 PM.586: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.586: 
+06:36:36 PM.600: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.603: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.603: 	title: xfce4-panel
+06:36:36 PM.603: 	class: xfce4-panel
+06:36:36 PM.603: 	Bit depth: 32
+06:36:36 PM.603: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.603: 
+06:36:36 PM.617: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.619: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.619: 	title: xfce4-panel
+06:36:36 PM.619: 	class: xfce4-panel
+06:36:36 PM.619: 	Bit depth: 32
+06:36:36 PM.619: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.619: 
+06:36:36 PM.633: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.636: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.636: 	title: xfce4-panel
+06:36:36 PM.636: 	class: xfce4-panel
+06:36:36 PM.636: 	Bit depth: 32
+06:36:36 PM.636: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.636: 
+06:36:36 PM.650: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.652: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.652: 	title: xfce4-panel
+06:36:36 PM.652: 	class: xfce4-panel
+06:36:36 PM.652: 	Bit depth: 32
+06:36:36 PM.652: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.652: 
+06:36:36 PM.667: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.669: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.669: 	title: xfce4-panel
+06:36:36 PM.669: 	class: xfce4-panel
+06:36:36 PM.669: 	Bit depth: 32
+06:36:36 PM.669: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.669: 
+06:36:36 PM.683: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:36 PM.685: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:36 PM.685: 	title: xfce4-panel
+06:36:36 PM.685: 	class: xfce4-panel
+06:36:36 PM.685: 	Bit depth: 32
+06:36:36 PM.685: 	Found proper GLXFBConfig (in 9): yes
+06:36:36 PM.685: 
+06:36:37 PM.167: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:37 PM.169: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:37 PM.169: 	title: xfce4-panel
+06:36:37 PM.169: 	class: xfce4-panel
+06:36:37 PM.169: 	Bit depth: 32
+06:36:37 PM.169: 	Found proper GLXFBConfig (in 9): yes
+06:36:37 PM.169: 
+06:36:37 PM.850: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:37 PM.853: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:37 PM.853: 	title: xfce4-panel
+06:36:37 PM.853: 	class: xfce4-panel
+06:36:37 PM.853: 	Bit depth: 32
+06:36:37 PM.853: 	Found proper GLXFBConfig (in 9): yes
+06:36:37 PM.853: 
+06:36:37 PM.867: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:37 PM.869: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:37 PM.869: 	title: xfce4-panel
+06:36:37 PM.869: 	class: xfce4-panel
+06:36:37 PM.869: 	Bit depth: 32
+06:36:37 PM.869: 	Found proper GLXFBConfig (in 9): yes
+06:36:37 PM.869: 
+06:36:37 PM.883: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:37 PM.886: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:37 PM.886: 	title: xfce4-panel
+06:36:37 PM.886: 	class: xfce4-panel
+06:36:37 PM.886: 	Bit depth: 32
+06:36:37 PM.886: 	Found proper GLXFBConfig (in 9): yes
+06:36:37 PM.886: 
+06:36:37 PM.900: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:37 PM.903: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:37 PM.903: 	title: xfce4-panel
+06:36:37 PM.903: 	class: xfce4-panel
+06:36:37 PM.903: 	Bit depth: 32
+06:36:37 PM.903: 	Found proper GLXFBConfig (in 9): yes
+06:36:37 PM.903: 
+06:36:38 PM.167: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:38 PM.170: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:38 PM.170: 	title: xfce4-panel
+06:36:38 PM.170: 	class: xfce4-panel
+06:36:38 PM.170: 	Bit depth: 32
+06:36:38 PM.170: 	Found proper GLXFBConfig (in 9): yes
+06:36:38 PM.170: 
+06:36:38 PM.400: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:38 PM.404: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:38 PM.404: 	title: xfce4-panel
+06:36:38 PM.404: 	class: xfce4-panel
+06:36:38 PM.404: 	Bit depth: 32
+06:36:38 PM.404: 	Found proper GLXFBConfig (in 9): yes
+06:36:38 PM.404: 
+06:36:38 PM.416: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:38 PM.420: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:38 PM.420: 	title: xfce4-panel
+06:36:38 PM.420: 	class: xfce4-panel
+06:36:38 PM.420: 	Bit depth: 32
+06:36:38 PM.420: 	Found proper GLXFBConfig (in 9): yes
+06:36:38 PM.420: 
+06:36:38 PM.433: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:38 PM.437: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:38 PM.437: 	title: xfce4-panel
+06:36:38 PM.437: 	class: xfce4-panel
+06:36:38 PM.437: 	Bit depth: 32
+06:36:38 PM.437: 	Found proper GLXFBConfig (in 9): yes
+06:36:38 PM.437: 
+06:36:38 PM.450: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:38 PM.455: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:38 PM.455: 	title: xfce4-panel
+06:36:38 PM.455: 	class: xfce4-panel
+06:36:38 PM.455: 	Bit depth: 32
+06:36:38 PM.455: 	Found proper GLXFBConfig (in 9): yes
+06:36:38 PM.455: 
+06:36:38 PM.469: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:43 PM.684: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:43 PM.684: 	title: Hieb - Twitch — Mozilla Firefox
+06:36:43 PM.684: 	class: Navigator
+06:36:43 PM.684: 	Bit depth: 32
+06:36:43 PM.684: 	Found proper GLXFBConfig (in 9): yes
+06:36:43 PM.684: 
+06:36:45 PM.383: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:45 PM.383: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+06:36:45 PM.384: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+06:36:45 PM.399: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:45 PM.399: 	title: Hieb - Twitch — Mozilla Firefox
+06:36:45 PM.399: 	class: Navigator
+06:36:45 PM.399: 	Bit depth: 32
+06:36:45 PM.399: 	Found proper GLXFBConfig (in 9): yes
+06:36:45 PM.399: 
+06:36:47 PM.469: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:47 PM.491: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:47 PM.491: 	title: Hieb - Twitch — Mozilla Firefox
+06:36:47 PM.491: 	class: Navigator
+06:36:47 PM.491: 	Bit depth: 32
+06:36:47 PM.491: 	Found proper GLXFBConfig (in 9): yes
+06:36:47 PM.491: 
+06:36:53 PM.085: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:53 PM.089: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:53 PM.089: 	title: Desktop
+06:36:53 PM.089: 	class: xfdesktop
+06:36:53 PM.089: 	Bit depth: 24
+06:36:53 PM.089: 	Found proper GLXFBConfig (in 9): yes
+06:36:53 PM.089: 
+06:36:53 PM.090: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:36:53 PM.093: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:36:53 PM.093: 	title: Desktop
+06:36:53 PM.093: 	class: xfdesktop
+06:36:53 PM.093: 	Bit depth: 24
+06:36:53 PM.093: 	Found proper GLXFBConfig (in 9): yes
+06:36:53 PM.093: 
+06:37:00 PM.087: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:00 PM.093: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:00 PM.093: 	title: Lutris
+06:37:00 PM.093: 	class: lutris
+06:37:00 PM.093: 	Bit depth: 24
+06:37:00 PM.093: 	Found proper GLXFBConfig (in 9): yes
+06:37:00 PM.093: 
+06:37:01 PM.322: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:01 PM.322: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+06:37:01 PM.322: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+06:37:01 PM.339: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:01 PM.339: 	title: Lutris
+06:37:01 PM.339: 	class: lutris
+06:37:01 PM.339: 	Bit depth: 24
+06:37:01 PM.339: 	Found proper GLXFBConfig (in 9): yes
+06:37:01 PM.339: 
+06:37:04 PM.217: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:04 PM.220: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:04 PM.220: 	title: Lutris
+06:37:04 PM.220: 	class: lutris
+06:37:04 PM.220: 	Bit depth: 24
+06:37:04 PM.220: 	Found proper GLXFBConfig (in 9): yes
+06:37:04 PM.220: 
+06:37:10 PM.451: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:10 PM.454: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:10 PM.454: 	title: Lutris
+06:37:10 PM.454: 	class: lutris
+06:37:10 PM.454: 	Bit depth: 24
+06:37:10 PM.454: 	Found proper GLXFBConfig (in 9): yes
+06:37:10 PM.454: 
+06:37:11 PM.883: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:11 PM.888: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:11 PM.888: 	title: Lutris
+06:37:11 PM.888: 	class: lutris
+06:37:11 PM.888: 	Bit depth: 24
+06:37:11 PM.888: 	Found proper GLXFBConfig (in 9): yes
+06:37:11 PM.888: 
+06:37:11 PM.953: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:11 PM.956: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:11 PM.956: 	title: Lutris
+06:37:11 PM.956: 	class: lutris
+06:37:11 PM.956: 	Bit depth: 24
+06:37:11 PM.956: 	Found proper GLXFBConfig (in 9): yes
+06:37:11 PM.956: 
+06:37:11 PM.970: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:11 PM.975: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:11 PM.975: 	title: Lutris
+06:37:11 PM.975: 	class: lutris
+06:37:11 PM.975: 	Bit depth: 24
+06:37:11 PM.975: 	Found proper GLXFBConfig (in 9): yes
+06:37:11 PM.975: 
+06:37:11 PM.987: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:11 PM.992: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:11 PM.992: 	title: Lutris
+06:37:11 PM.992: 	class: lutris
+06:37:11 PM.992: 	Bit depth: 24
+06:37:11 PM.992: 	Found proper GLXFBConfig (in 9): yes
+06:37:11 PM.992: 
+06:37:12 PM.003: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.006: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.006: 	title: Lutris
+06:37:12 PM.006: 	class: lutris
+06:37:12 PM.006: 	Bit depth: 24
+06:37:12 PM.006: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.006: 
+06:37:12 PM.020: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.026: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.026: 	title: Lutris
+06:37:12 PM.026: 	class: lutris
+06:37:12 PM.026: 	Bit depth: 24
+06:37:12 PM.026: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.026: 
+06:37:12 PM.037: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.042: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.042: 	title: Lutris
+06:37:12 PM.042: 	class: lutris
+06:37:12 PM.042: 	Bit depth: 24
+06:37:12 PM.042: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.042: 
+06:37:12 PM.053: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.058: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.058: 	title: Lutris
+06:37:12 PM.058: 	class: lutris
+06:37:12 PM.058: 	Bit depth: 24
+06:37:12 PM.058: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.058: 
+06:37:12 PM.070: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.075: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.075: 	title: Lutris
+06:37:12 PM.075: 	class: lutris
+06:37:12 PM.075: 	Bit depth: 24
+06:37:12 PM.075: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.075: 
+06:37:12 PM.087: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.092: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.092: 	title: Lutris
+06:37:12 PM.092: 	class: lutris
+06:37:12 PM.092: 	Bit depth: 24
+06:37:12 PM.092: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.092: 
+06:37:12 PM.100: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.105: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.105: 	title: Lutris
+06:37:12 PM.105: 	class: lutris
+06:37:12 PM.105: 	Bit depth: 24
+06:37:12 PM.105: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.105: 
+06:37:12 PM.120: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.129: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.129: 	title: Lutris
+06:37:12 PM.129: 	class: lutris
+06:37:12 PM.129: 	Bit depth: 24
+06:37:12 PM.129: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.129: 
+06:37:12 PM.140: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.143: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.143: 	title: Lutris
+06:37:12 PM.143: 	class: lutris
+06:37:12 PM.143: 	Bit depth: 24
+06:37:12 PM.143: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.143: 
+06:37:12 PM.150: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.155: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.155: 	title: Lutris
+06:37:12 PM.155: 	class: lutris
+06:37:12 PM.155: 	Bit depth: 24
+06:37:12 PM.155: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.155: 
+06:37:12 PM.170: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.173: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.173: 	title: Lutris
+06:37:12 PM.173: 	class: lutris
+06:37:12 PM.173: 	Bit depth: 24
+06:37:12 PM.173: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.173: 
+06:37:12 PM.183: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.189: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.189: 	title: Lutris
+06:37:12 PM.189: 	class: lutris
+06:37:12 PM.189: 	Bit depth: 24
+06:37:12 PM.189: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.189: 
+06:37:12 PM.200: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.205: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.205: 	title: Lutris
+06:37:12 PM.205: 	class: lutris
+06:37:12 PM.205: 	Bit depth: 24
+06:37:12 PM.205: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.205: 
+06:37:12 PM.220: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.224: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.224: 	title: Lutris
+06:37:12 PM.224: 	class: lutris
+06:37:12 PM.224: 	Bit depth: 24
+06:37:12 PM.224: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.224: 
+06:37:12 PM.233: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.239: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.239: 	title: Lutris
+06:37:12 PM.239: 	class: lutris
+06:37:12 PM.239: 	Bit depth: 24
+06:37:12 PM.239: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.239: 
+06:37:12 PM.253: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.256: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.256: 	title: Lutris
+06:37:12 PM.256: 	class: lutris
+06:37:12 PM.256: 	Bit depth: 24
+06:37:12 PM.256: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.256: 
+06:37:12 PM.267: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.272: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.272: 	title: Lutris
+06:37:12 PM.272: 	class: lutris
+06:37:12 PM.272: 	Bit depth: 24
+06:37:12 PM.272: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.272: 
+06:37:12 PM.533: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.539: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.539: 	title: Lutris
+06:37:12 PM.539: 	class: lutris
+06:37:12 PM.539: 	Bit depth: 24
+06:37:12 PM.539: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.539: 
+06:37:12 PM.553: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.557: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.557: 	title: Lutris
+06:37:12 PM.557: 	class: lutris
+06:37:12 PM.557: 	Bit depth: 24
+06:37:12 PM.557: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.557: 
+06:37:12 PM.567: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.573: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.573: 	title: Lutris
+06:37:12 PM.573: 	class: lutris
+06:37:12 PM.573: 	Bit depth: 24
+06:37:12 PM.573: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.573: 
+06:37:12 PM.583: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.589: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.589: 	title: Lutris
+06:37:12 PM.589: 	class: lutris
+06:37:12 PM.589: 	Bit depth: 24
+06:37:12 PM.589: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.589: 
+06:37:12 PM.600: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.606: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.606: 	title: Lutris
+06:37:12 PM.606: 	class: lutris
+06:37:12 PM.606: 	Bit depth: 24
+06:37:12 PM.606: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.606: 
+06:37:12 PM.633: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.640: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.640: 	title: Lutris
+06:37:12 PM.640: 	class: lutris
+06:37:12 PM.640: 	Bit depth: 24
+06:37:12 PM.640: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.640: 
+06:37:12 PM.666: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.673: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.673: 	title: Lutris
+06:37:12 PM.673: 	class: lutris
+06:37:12 PM.673: 	Bit depth: 24
+06:37:12 PM.673: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.673: 
+06:37:12 PM.804: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.807: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.807: 	title: Lutris
+06:37:12 PM.807: 	class: lutris
+06:37:12 PM.807: 	Bit depth: 24
+06:37:12 PM.807: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.807: 
+06:37:12 PM.817: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.823: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.823: 	title: Lutris
+06:37:12 PM.823: 	class: lutris
+06:37:12 PM.823: 	Bit depth: 24
+06:37:12 PM.823: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.823: 
+06:37:12 PM.833: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.840: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.840: 	title: Lutris
+06:37:12 PM.840: 	class: lutris
+06:37:12 PM.840: 	Bit depth: 24
+06:37:12 PM.840: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.840: 
+06:37:12 PM.854: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.857: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.857: 	title: Lutris
+06:37:12 PM.857: 	class: lutris
+06:37:12 PM.857: 	Bit depth: 24
+06:37:12 PM.857: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.857: 
+06:37:12 PM.887: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.891: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.891: 	title: Lutris
+06:37:12 PM.891: 	class: lutris
+06:37:12 PM.891: 	Bit depth: 24
+06:37:12 PM.891: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.891: 
+06:37:12 PM.900: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.907: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.907: 	title: Lutris
+06:37:12 PM.907: 	class: lutris
+06:37:12 PM.907: 	Bit depth: 24
+06:37:12 PM.907: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.907: 
+06:37:12 PM.921: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.925: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.925: 	title: Lutris
+06:37:12 PM.925: 	class: lutris
+06:37:12 PM.925: 	Bit depth: 24
+06:37:12 PM.925: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.925: 
+06:37:12 PM.950: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:12 PM.957: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:12 PM.957: 	title: Lutris
+06:37:12 PM.957: 	class: lutris
+06:37:12 PM.957: 	Bit depth: 24
+06:37:12 PM.957: 	Found proper GLXFBConfig (in 9): yes
+06:37:12 PM.957: 
+06:37:13 PM.117: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.124: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.124: 	title: Lutris
+06:37:13 PM.124: 	class: lutris
+06:37:13 PM.124: 	Bit depth: 24
+06:37:13 PM.124: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.124: 
+06:37:13 PM.467: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.470: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.470: 	title: Lutris
+06:37:13 PM.470: 	class: lutris
+06:37:13 PM.470: 	Bit depth: 24
+06:37:13 PM.470: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.470: 
+06:37:13 PM.567: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.569: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.569: 	title: Lutris
+06:37:13 PM.569: 	class: lutris
+06:37:13 PM.569: 	Bit depth: 24
+06:37:13 PM.569: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.569: 
+06:37:13 PM.583: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.586: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.586: 	title: Lutris
+06:37:13 PM.586: 	class: lutris
+06:37:13 PM.586: 	Bit depth: 24
+06:37:13 PM.586: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.586: 
+06:37:13 PM.600: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.603: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.603: 	title: Lutris
+06:37:13 PM.603: 	class: lutris
+06:37:13 PM.603: 	Bit depth: 24
+06:37:13 PM.603: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.603: 
+06:37:13 PM.617: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.619: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.619: 	title: Lutris
+06:37:13 PM.619: 	class: lutris
+06:37:13 PM.619: 	Bit depth: 24
+06:37:13 PM.619: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.619: 
+06:37:13 PM.633: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.637: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.637: 	title: Lutris
+06:37:13 PM.637: 	class: lutris
+06:37:13 PM.637: 	Bit depth: 24
+06:37:13 PM.637: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.637: 
+06:37:13 PM.650: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.654: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.654: 	title: Lutris
+06:37:13 PM.654: 	class: lutris
+06:37:13 PM.654: 	Bit depth: 24
+06:37:13 PM.654: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.654: 
+06:37:13 PM.667: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:13 PM.671: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:13 PM.671: 	title: Lutris
+06:37:13 PM.671: 	class: lutris
+06:37:13 PM.671: 	Bit depth: 24
+06:37:13 PM.671: 	Found proper GLXFBConfig (in 9): yes
+06:37:13 PM.671: 
+06:37:16 PM.169: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:37:16 PM.179: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:37:16 PM.179: 	title: Lutris
+06:37:16 PM.179: 	class: lutris
+06:37:16 PM.179: 	Bit depth: 24
+06:37:16 PM.179: 	Found proper GLXFBConfig (in 9): yes
+06:37:16 PM.179: 
+06:38:24 PM.367: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:38:24 PM.379: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:38:24 PM.379: 	title: Lutris
+06:38:24 PM.379: 	class: lutris
+06:38:24 PM.379: 	Bit depth: 24
+06:38:24 PM.379: 	Found proper GLXFBConfig (in 9): yes
+06:38:24 PM.379: 
+06:39:25 PM.750: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:39:25 PM.758: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:39:25 PM.758: 	title: Lutris
+06:39:25 PM.758: 	class: lutris
+06:39:25 PM.758: 	Bit depth: 24
+06:39:25 PM.758: 	Found proper GLXFBConfig (in 9): yes
+06:39:25 PM.758: 
+06:40:52 PM.950: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:40:52 PM.953: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:40:52 PM.953: 	title: Lutris
+06:40:52 PM.953: 	class: lutris
+06:40:52 PM.953: 	Bit depth: 24
+06:40:52 PM.953: 	Found proper GLXFBConfig (in 9): yes
+06:40:52 PM.953: 
+06:40:53 PM.334: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:40:53 PM.337: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:40:53 PM.337: 	title: Lutris
+06:40:53 PM.337: 	class: lutris
+06:40:53 PM.337: 	Bit depth: 24
+06:40:53 PM.337: 	Found proper GLXFBConfig (in 9): yes
+06:40:53 PM.337: 
+06:48:20 PM.950: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:48:20 PM.953: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:48:20 PM.953: 	title: Lutris
+06:48:20 PM.953: 	class: lutris
+06:48:20 PM.953: 	Bit depth: 24
+06:48:20 PM.953: 	Found proper GLXFBConfig (in 9): yes
+06:48:20 PM.953: 
+06:48:22 PM.550: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+06:48:22 PM.552: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:48:22 PM.552: 	title: Lutris
+06:48:22 PM.552: 	class: lutris
+06:48:22 PM.552: 	Bit depth: 24
+06:48:22 PM.552: 	Found proper GLXFBConfig (in 9): yes
+06:48:22 PM.552: 
+07:00:49 PM.067: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:00:49 PM.077: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:00:49 PM.077: 	title: Lutris
+07:00:49 PM.077: 	class: lutris
+07:00:49 PM.077: 	Bit depth: 24
+07:00:49 PM.077: 	Found proper GLXFBConfig (in 9): yes
+07:00:49 PM.077: 
+07:00:49 PM.584: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:00:49 PM.586: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:00:49 PM.586: 	title: Lutris
+07:00:49 PM.586: 	class: lutris
+07:00:49 PM.586: 	Bit depth: 24
+07:00:49 PM.586: 	Found proper GLXFBConfig (in 9): yes
+07:00:49 PM.586: 
+07:01:05 PM.733: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:01:05 PM.737: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:01:05 PM.737: 	title: Lutris
+07:01:05 PM.737: 	class: lutris
+07:01:05 PM.737: 	Bit depth: 24
+07:01:05 PM.737: 	Found proper GLXFBConfig (in 9): yes
+07:01:05 PM.737: 
+07:01:06 PM.067: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:01:06 PM.069: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:01:06 PM.069: 	title: Lutris
+07:01:06 PM.069: 	class: lutris
+07:01:06 PM.069: 	Bit depth: 24
+07:01:06 PM.069: 	Found proper GLXFBConfig (in 9): yes
+07:01:06 PM.069: 
+07:13:36 PM.487: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:13:36 PM.501: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:13:36 PM.501: 	title: Lutris
+07:13:36 PM.501: 	class: lutris
+07:13:36 PM.501: 	Bit depth: 24
+07:13:36 PM.501: 	Found proper GLXFBConfig (in 9): yes
+07:13:36 PM.501: 
+07:13:44 PM.716: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:13:44 PM.723: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:13:44 PM.723: 	title: Lutris
+07:13:44 PM.723: 	class: lutris
+07:13:44 PM.723: 	Bit depth: 24
+07:13:44 PM.723: 	Found proper GLXFBConfig (in 9): yes
+07:13:44 PM.723: 
+07:13:45 PM.871: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:13:45 PM.881: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:13:45 PM.881: 	title: Lutris
+07:13:45 PM.881: 	class: lutris
+07:13:45 PM.881: 	Bit depth: 24
+07:13:45 PM.881: 	Found proper GLXFBConfig (in 9): yes
+07:13:45 PM.881: 
+07:15:01 PM.150: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:01 PM.169: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:01 PM.169: 	title: Lutris
+07:15:01 PM.169: 	class: lutris
+07:15:01 PM.169: 	Bit depth: 24
+07:15:01 PM.169: 	Found proper GLXFBConfig (in 9): yes
+07:15:01 PM.169: 
+07:15:27 PM.469: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:27 PM.483: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:27 PM.483: 	title: OBS 27.0.1-1 (linux) - Profile: clips - Scenes: Untitled
+07:15:27 PM.483: 	class: obs
+07:15:27 PM.483: 	Bit depth: 24
+07:15:27 PM.483: 	Found proper GLXFBConfig (in 9): yes
+07:15:27 PM.483: 
+07:15:31 PM.237: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:31 PM.246: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:31 PM.246: 	title: OBS 27.0.1-1 (linux) - Profile: clips - Scenes: Untitled
+07:15:31 PM.246: 	class: obs
+07:15:31 PM.246: 	Bit depth: 24
+07:15:31 PM.246: 	Found proper GLXFBConfig (in 9): yes
+07:15:31 PM.246: 
+07:15:36 PM.366: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:36 PM.372: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:36 PM.372: 	title: Battlefield 4
+07:15:36 PM.372: 	class: bf4.exe
+07:15:36 PM.372: 	Bit depth: 24
+07:15:36 PM.372: 	Found proper GLXFBConfig (in 9): yes
+07:15:36 PM.372: 
+07:15:38 PM.269: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:38 PM.269: xcompcap: cleanup glXDestroyPixmap failed: GLXBadPixmap
+07:15:38 PM.269: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+07:15:38 PM.276: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:38 PM.276: 	title: Battlefield 4
+07:15:38 PM.276: 	class: bf4.exe
+07:15:38 PM.276: 	Bit depth: 24
+07:15:38 PM.276: 	Found proper GLXFBConfig (in 9): yes
+07:15:38 PM.276: 
+07:15:38 PM.283: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:38 PM.285: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:38 PM.285: 	title: Battlefield 4
+07:15:38 PM.285: 	class: bf4.exe
+07:15:38 PM.285: 	Bit depth: 24
+07:15:38 PM.285: 	Found proper GLXFBConfig (in 9): yes
+07:15:38 PM.285: 
+07:15:38 PM.933: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:38 PM.939: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:38 PM.939: 	title: Battlefield 4
+07:15:38 PM.939: 	class: bf4.exe
+07:15:38 PM.939: 	Bit depth: 24
+07:15:38 PM.939: 	Found proper GLXFBConfig (in 9): yes
+07:15:38 PM.939: 
+07:15:40 PM.021: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:40 PM.036: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:40 PM.036: 	title: Battlefield 4
+07:15:40 PM.036: 	class: bf4.exe
+07:15:40 PM.036: 	Bit depth: 24
+07:15:40 PM.036: 	Found proper GLXFBConfig (in 9): yes
+07:15:40 PM.036: 
+07:15:40 PM.043: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:40 PM.045: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:40 PM.045: 	title: Battlefield 4
+07:15:40 PM.045: 	class: bf4.exe
+07:15:40 PM.045: 	Bit depth: 24
+07:15:40 PM.045: 	Found proper GLXFBConfig (in 9): yes
+07:15:40 PM.045: 
+07:15:41 PM.257: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:41 PM.261: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:41 PM.261: 	title: Battlefield 4
+07:15:41 PM.261: 	class: bf4.exe
+07:15:41 PM.261: 	Bit depth: 24
+07:15:41 PM.261: 	Found proper GLXFBConfig (in 9): yes
+07:15:41 PM.261: 
+07:15:41 PM.266: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:41 PM.268: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:41 PM.268: 	title: Battlefield 4
+07:15:41 PM.268: 	class: bf4.exe
+07:15:41 PM.268: 	Bit depth: 24
+07:15:41 PM.268: 	Found proper GLXFBConfig (in 9): yes
+07:15:41 PM.268: 
+07:15:48 PM.972: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:48 PM.976: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:48 PM.976: 	title: Battlefield 4
+07:15:48 PM.976: 	class: bf4.exe
+07:15:48 PM.976: 	Bit depth: 24
+07:15:48 PM.976: 	Found proper GLXFBConfig (in 9): yes
+07:15:48 PM.976: 
+07:15:48 PM.988: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:48 PM.992: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:48 PM.992: 	title: Battlefield 4
+07:15:48 PM.992: 	class: bf4.exe
+07:15:48 PM.992: 	Bit depth: 24
+07:15:48 PM.992: 	Found proper GLXFBConfig (in 9): yes
+07:15:48 PM.992: 
+07:15:50 PM.050: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:15:50 PM.051: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:15:50 PM.051: 	title: Battlefield 4
+07:15:50 PM.051: 	class: bf4.exe
+07:15:50 PM.051: 	Bit depth: 24
+07:15:50 PM.051: 	Found proper GLXFBConfig (in 9): yes
+07:15:50 PM.051: 
+07:16:12 PM.969: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:16:12 PM.980: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:16:12 PM.980: 	title: Battlefield 4
+07:16:12 PM.980: 	class: bf4.exe
+07:16:12 PM.980: 	Bit depth: 24
+07:16:12 PM.980: 	Found proper GLXFBConfig (in 9): yes
+07:16:12 PM.980: 
+07:16:12 PM.984: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:16:12 PM.990: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:16:12 PM.990: 	title: Battlefield 4
+07:16:12 PM.990: 	class: bf4.exe
+07:16:12 PM.990: 	Bit depth: 24
+07:16:12 PM.990: 	Found proper GLXFBConfig (in 9): yes
+07:16:12 PM.990: 
+07:16:13 PM.000: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:16:13 PM.001: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:16:13 PM.001: 	title: Battlefield 4
+07:16:13 PM.001: 	class: bf4.exe
+07:16:13 PM.001: 	Bit depth: 24
+07:16:13 PM.001: 	Found proper GLXFBConfig (in 9): yes
+07:16:13 PM.001: 
+07:17:47 PM.583: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:17:47 PM.585: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:17:47 PM.585: 	title: Battlefield 4
+07:17:47 PM.585: 	class: bf4.exe
+07:17:47 PM.585: 	Bit depth: 24
+07:17:47 PM.585: 	Found proper GLXFBConfig (in 9): yes
+07:17:47 PM.585: 
+07:17:48 PM.816: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:17:48 PM.819: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:17:48 PM.819: 	title: Battlefield 4
+07:17:48 PM.819: 	class: bf4.exe
+07:17:48 PM.819: 	Bit depth: 24
+07:17:48 PM.819: 	Found proper GLXFBConfig (in 9): yes
+07:17:48 PM.819: 
+07:29:04 PM.139: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:04 PM.142: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:04 PM.142: 	title: Battlefield 4
+07:29:04 PM.142: 	class: bf4.exe
+07:29:04 PM.142: 	Bit depth: 24
+07:29:04 PM.142: 	Found proper GLXFBConfig (in 9): yes
+07:29:04 PM.142: 
+07:29:21 PM.601: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:21 PM.613: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:21 PM.613: 	title: Battlefield 4
+07:29:21 PM.613: 	class: bf4.exe
+07:29:21 PM.613: 	Bit depth: 24
+07:29:21 PM.613: 	Found proper GLXFBConfig (in 9): yes
+07:29:21 PM.613: 
+07:29:21 PM.618: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:21 PM.624: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:21 PM.624: 	title: Battlefield 4
+07:29:21 PM.624: 	class: bf4.exe
+07:29:21 PM.624: 	Bit depth: 24
+07:29:21 PM.624: 	Found proper GLXFBConfig (in 9): yes
+07:29:21 PM.624: 
+07:29:21 PM.633: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:21 PM.635: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:21 PM.635: 	title: Battlefield 4
+07:29:21 PM.635: 	class: bf4.exe
+07:29:21 PM.635: 	Bit depth: 24
+07:29:21 PM.635: 	Found proper GLXFBConfig (in 9): yes
+07:29:21 PM.635: 
+07:29:28 PM.118: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:28 PM.121: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:28 PM.121: 	title: Battlefield 4
+07:29:28 PM.121: 	class: bf4.exe
+07:29:28 PM.121: 	Bit depth: 24
+07:29:28 PM.121: 	Found proper GLXFBConfig (in 9): yes
+07:29:28 PM.121: 
+07:29:30 PM.579: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:30 PM.590: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:30 PM.590: 	title: Battlefield 4
+07:29:30 PM.590: 	class: bf4.exe
+07:29:30 PM.590: 	Bit depth: 24
+07:29:30 PM.590: 	Found proper GLXFBConfig (in 9): yes
+07:29:30 PM.590: 
+07:29:30 PM.592: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:30 PM.594: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:30 PM.594: 	title: Battlefield 4
+07:29:30 PM.594: 	class: bf4.exe
+07:29:30 PM.594: 	Bit depth: 24
+07:29:30 PM.594: 	Found proper GLXFBConfig (in 9): yes
+07:29:30 PM.594: 
+07:29:31 PM.218: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:31 PM.221: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:31 PM.221: 	title: Battlefield 4
+07:29:31 PM.221: 	class: bf4.exe
+07:29:31 PM.221: 	Bit depth: 24
+07:29:31 PM.221: 	Found proper GLXFBConfig (in 9): yes
+07:29:31 PM.221: 
+07:29:39 PM.825: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:39 PM.834: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:39 PM.834: 	title: Battlefield 4
+07:29:39 PM.834: 	class: bf4.exe
+07:29:39 PM.834: 	Bit depth: 24
+07:29:39 PM.834: 	Found proper GLXFBConfig (in 9): yes
+07:29:39 PM.834: 
+07:29:39 PM.841: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:39 PM.847: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:39 PM.847: 	title: Battlefield 4
+07:29:39 PM.847: 	class: bf4.exe
+07:29:39 PM.847: 	Bit depth: 24
+07:29:39 PM.847: 	Found proper GLXFBConfig (in 9): yes
+07:29:39 PM.847: 
+07:29:39 PM.850: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:39 PM.851: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:39 PM.851: 	title: Battlefield 4
+07:29:39 PM.851: 	class: bf4.exe
+07:29:39 PM.851: 	Bit depth: 24
+07:29:39 PM.851: 	Found proper GLXFBConfig (in 9): yes
+07:29:39 PM.851: 
+07:29:56 PM.141: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:29:56 PM.144: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:29:56 PM.144: 	title: Battlefield 4
+07:29:56 PM.144: 	class: bf4.exe
+07:29:56 PM.144: 	Bit depth: 24
+07:29:56 PM.144: 	Found proper GLXFBConfig (in 9): yes
+07:29:56 PM.144: 
+07:30:24 PM.949: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:30:24 PM.958: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:30:24 PM.958: 	title: Battlefield 4
+07:30:24 PM.958: 	class: bf4.exe
+07:30:24 PM.958: 	Bit depth: 24
+07:30:24 PM.958: 	Found proper GLXFBConfig (in 9): yes
+07:30:24 PM.958: 
+07:30:24 PM.963: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:30:24 PM.966: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:30:24 PM.966: 	title: Battlefield 4
+07:30:24 PM.966: 	class: bf4.exe
+07:30:24 PM.966: 	Bit depth: 24
+07:30:24 PM.966: 	Found proper GLXFBConfig (in 9): yes
+07:30:24 PM.966: 
+07:32:36 PM.274: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:32:36 PM.277: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:32:36 PM.277: 	title: Battlefield 4
+07:32:36 PM.277: 	class: bf4.exe
+07:32:36 PM.277: 	Bit depth: 24
+07:32:36 PM.277: 	Found proper GLXFBConfig (in 9): yes
+07:32:36 PM.277: 
+07:32:36 PM.283: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:32:36 PM.285: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:32:36 PM.285: 	title: Battlefield 4
+07:32:36 PM.285: 	class: bf4.exe
+07:32:36 PM.285: 	Bit depth: 24
+07:32:36 PM.285: 	Found proper GLXFBConfig (in 9): yes
+07:32:36 PM.285: 
+07:32:37 PM.050: xcompcap: cleanup glXReleaseTexImageEXT failed: GLXBadPixmap
+07:32:37 PM.052: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:32:37 PM.052: 	title: Battlefield 4
+07:32:37 PM.052: 	class: bf4.exe
+07:32:37 PM.052: 	Bit depth: 24
+07:32:37 PM.052: 	Found proper GLXFBConfig (in 9): yes
+07:32:37 PM.052: 
