@@ -1,7 +1,7 @@
 echo Moving Personal Configs ;
 sleep 3 ;
-cp Linuxstuffs/.bashrctp ~/.bashrc ;
-sudo cp Linuxstuffs/.bashrctproot /root/.bashrc ;
+cp Linuxstuffs/.bashrc ~/.bashrc ;
+sudo cp Linuxstuffs/.bashrcroot /root/.bashrc ;
 cp Linuxstuffs/wallhaven.jpg ~/Pictures ;
 cp -r Linuxstuffs/.config-thinkpad/.Xresources ~/.Xresources ; 
 cp -r Linuxstuffs/.config-thinkpad/bspwm ~/.config/ ;
