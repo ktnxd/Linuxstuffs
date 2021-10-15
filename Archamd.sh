@@ -1,7 +1,6 @@
 #Enable Multilib
 sudo sed -i "/\[Multilib\]/,/Include/"'s/^#//' /etc/pacman.conf ;
 #Moving configs
-echo Dots
 cp Linuxstuffs/.bashrc ~/.bashrc ;
 sudo cp Linuxstuffs/.bashrcroot /root/.bashrc
 cp Linuxstuffs/wallhaven.jpg ~/Pictures/wallhaven.jpg ;
