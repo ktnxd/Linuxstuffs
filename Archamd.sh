@@ -20,13 +20,6 @@ sudo pacman -S discord firefox steam steam-native-runtime lutris exa android-too
 echo Drivers ; 
 sleep 1
 sudo pacman -S amd-ucode amdvlk lib32-amdvlk mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader piper ;
-#Keyboard
-echo ckb ;
-sleep 1
-git clone https://github.com/ckb-next/ckb-next.git ;
-cd ckb-next/ ; 
-./quickinstall ;
-cd ;
 #paru
 echo Paru ;
 sleep 1
