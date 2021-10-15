@@ -18,7 +18,6 @@ sudo pacman -S amd-ucode amdvlk lib32-amdvlk mesa lib32-mesa vulkan-radeon lib32
 sudo pacman -S linux-zen linux-zen-headers && sudo grub-mkconfig -o /boot/grub/grub.cfg
 #paru
 echo Paru ;
-sleep 1
 git clone https://aur.archlinux.org/paru.git ;
 cd paru/ ;
 makepkg -si ;
