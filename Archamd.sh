@@ -18,5 +18,5 @@ git clone https://aur.archlinux.org/paru.git ;
 cd paru/ ;
 makepkg -si ;
 cd ;
-paru -Syyy matcha-gtk-theme-git protontricks-git ; 
+paru -Syyy matcha-gtk-theme-git protontricks-git librewolf-bin ; 
 echo fin
