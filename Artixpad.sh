@@ -4,14 +4,13 @@ sudo cp Linuxstuffs/.bashrcroot /root/.bashrc
 cp Linuxstuffs/wallhaven.jpg ~/Pictures/wallhaven.jpg ;
 cp -r Linuxstuffs/.config/neofetch ~/.config/ ;
 #Base
-sudo pacman -Syyyu base-devel multilib-devel make cmake git
+sudo pacman -Syyyu base-devel multilib-devel make cmake git &&
 #Drivers
-sudo pacman -S --needed intel-ucode xf86-video-intel lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader ;
+sudo pacman -S --needed intel-ucode xf86-video-intel lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader &&
 #shit
-sudo pacman -S gamemode lib32-gamemode gvfs-mtp fuse transmission-gtk mpv bash-completion openrc-bash-completions
+sudo pacman -S gamemode lib32-gamemode gvfs-mtp fuse transmission-gtk mpv bash-completion openrc-bash-completions &&
 #paru
-git clone https://aur.archlinux.org/paru.git ; cd paru/ ; makepkg -si ; cd ;
+git clone https://aur.archlinux.org/paru.git && cd paru/ && makepkg -si && cd &&
 #Other shit
-#sudo pacman -S steam  lutris piper firefox papirus-icon-theme transmission-gtk mpv discord gamemode exa android-tools android-udev gvfs-mtp ;
-paru -Syyy brave-bin matcha-gtk-theme-git protontricks-git librewolf-bin lutris exa papirus-icon-theme-git android-udev-git android-sdk-platform-tools android-bash-completion  ; 
+paru -Syyy brave-bin matcha-gtk-theme-git protontricks-git librewolf-bin lutris exa papirus-icon-theme-git android-udev-git android-sdk-platform-tools android-bash-completion &&
 echo fin
